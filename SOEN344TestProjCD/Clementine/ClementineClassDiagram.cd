@@ -1,2 +1,3882 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AnalyzerContainer" Collapsed="true">
+    <Position X="89.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QArSgIAAIAABCJQAACAEAiBAQIMwgiBAcIAAAAAJIAE=</HashCode>
+      <FileName>src\analyzers\analyzercontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BarAnalyzer" Collapsed="true">
+    <Position X="3" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAIIAAAAABQABQICWAAgIQEAAAIAIAJAAEAIAAAAEAA=</HashCode>
+      <FileName>src\analyzers\baranalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BlockAnalyzer" Collapsed="true">
+    <Position X="5.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACBYYAjAAAQAKAIBggAURAAEUIAwBAAAAAAAAAAg=</HashCode>
+      <FileName>src\analyzers\blockanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoomAnalyzer" Collapsed="true">
+    <Position X="7.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAQEABAAIQACAACgmQAEAAAsICAAAAAAAAgAAAA=</HashCode>
+      <FileName>src\analyzers\boomanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FHT" Collapsed="true">
+    <Position X="80.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAAAAAAAAAAgAIEYFAGAACAAEUAAMQAAAAEAAAAEE=</HashCode>
+      <FileName>src\analyzers\fht.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLAnalyzer" Collapsed="true">
+    <Position X="73.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAKAACAACAEACACAAAAAAAAAAAAAEAABgIACAAAA=</HashCode>
+      <FileName>src\analyzers\glanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLAnalyzer2" Collapsed="true">
+    <Position X="75.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAABAAAAEACACAAQQAAAEAAAAAEBAAAAQAgIKY=</HashCode>
+      <FileName>src\analyzers\glanalyzer2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GLAnalyzer3" Collapsed="true">
+    <Position X="77" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAIAABAAAAEAGCTAAAAQCAEQAAAAEBAAAAQCAICA=</HashCode>
+      <FileName>src\analyzers\glanalyzer3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sonogram" Collapsed="true">
+    <Position X="14.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAAAAABAAAQACAAAAgAAAAAAEIAQAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\sonogram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TurbineAnalyzer" Collapsed="true">
+    <Position X="7.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\turbine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Appearance" Collapsed="true">
+    <Position X="91" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAACgAAIEAAAAAAAAAAAAAAAQIBAAAAAAIgAAAQA=</HashCode>
+      <FileName>src\core\appearance.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Application" Collapsed="true">
+    <Position X="92.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBhIQgAAABEogABEAAkQEAiWhEAGBAgBA0AEBACAACA=</HashCode>
+      <FileName>src\core\application.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackgroundStreams" Collapsed="true">
+    <Position X="94.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGAQAAAYAAABASAAEQAAAoAAgQQAQAAAIAAAgAggQA=</HashCode>
+      <FileName>src\core\backgroundstreams.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CachedList&lt;T&gt;" Collapsed="true">
+    <Position X="71.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgIACAEEAAAABAAASAAAQAAAAADAAAAAAAAAAIQA=</HashCode>
+      <FileName>src\core\cachedlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CommandlineOptions" Collapsed="true">
+    <Position X="84" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgwAEABABIBAoQCEBIEEAQgqCRIIAAAAAggAAQAQA=</HashCode>
+      <FileName>src\core\commandlineoptions.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrashReporting" Collapsed="true">
+    <Position X="68.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgAAEAAIIAAAAAAAAAAAQAAAAAQAAAgAAAAFAAA=</HashCode>
+      <FileName>src\core\crashreporting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CrashSender" Collapsed="true">
+    <Position X="70" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAACoAAAAAAAAAQAAAAAAAAAAAEIAAAAAAAAA=</HashCode>
+      <FileName>src\core\crashreporting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Database" Collapsed="true">
+    <Position X="19" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKApDAoCCAAQANCBFAAoABMEICghUggQCkAiAAYAA=</HashCode>
+      <FileName>src\core\database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryDatabase" Collapsed="true">
+    <Position X="19" Y="40" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAIAA=</HashCode>
+      <FileName>src\core\database.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeleteFiles" Collapsed="true">
+    <Position X="73.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAACACIBQAAAAAAAAQAAAAAAAAAIIAQAAAAAA=</HashCode>
+      <FileName>src\core\deletefiles.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilesystemMusicStorage" Collapsed="true">
+    <Position X="28.25" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAgAAAAAAAAAAAAAAACAAABAAAAAEAAAAAgA=</HashCode>
+      <FileName>src\core\filesystemmusicstorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileSystemWatcherInterface" Collapsed="true">
+    <Position X="3.25" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAQAEAAAAACAABAAAA=</HashCode>
+      <FileName>src\core\filesystemwatcherinterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalShortcutBackend" Collapsed="true">
+    <Position X="4.5" Y="33.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACCEAEAAAAAAAAAIEAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>src\core\globalshortcutbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalShortcuts" Collapsed="true">
+    <Position X="87.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GoCgQAAAAggQGpAICBCEBEQAAAKDAAAAIAEgAAAAEAg=</HashCode>
+      <FileName>src\core\globalshortcuts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GnomeGlobalShortcutBackend" Collapsed="true">
+    <Position X="2.25" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAECAAAAAAABBAAEAAAABAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>src\core\gnomeglobalshortcutbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacFSListener" Collapsed="true">
+    <Position X="2" Y="38" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAEAgACBAQEAAAAAACEABAAAA=</HashCode>
+      <FileName>src\core\macfslistener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacGlobalShortcutBackend" Collapsed="true">
+    <Position X="4.5" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAgkgAAAAAAAgAAAECAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>src\core\macglobalshortcutbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformInterface" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAABAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>src\core\mac_startup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MergedProxyModel" Collapsed="true">
+    <Position X="75.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAGDQQgCAAAJEAAgEBIBOgDAAAAgCAEAQDAQDEAQ=</HashCode>
+      <FileName>src\core\mergedproxymodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MimeData" Collapsed="true">
+    <Position X="21.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAIASAAAAAAAAAAAAAgAAAIAAAAAAAAAQA=</HashCode>
+      <FileName>src\core\mimedata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiSortFilterProxy" Collapsed="true">
+    <Position X="77" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAABAAAAAAAAAAAAAAAAAAAAAAAABCIAAAAAA=</HashCode>
+      <FileName>src\core\multisortfilterproxy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicStorage" Collapsed="true">
+    <Position X="30.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAAACAAggAAAAAAQAAAAAAACAAAhAAAAAFAAAgAAA=</HashCode>
+      <FileName>src\core\musicstorage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThreadSafeNetworkDiskCache" Collapsed="true">
+    <Position X="84" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAABAAAhAAAAEAAAAAAgAQAAAAAAAAAAUAAAABAA=</HashCode>
+      <FileName>src\core\network.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkAccessManager" Collapsed="true">
+    <Position X="82.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\network.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedirectFollower" Collapsed="true">
+    <Position X="80.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgQEQFAAAQAAAAAgEgAAAEAAAIAAAAAgAAAAEIAAA=</HashCode>
+      <FileName>src\core\network.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkTimeouts" Collapsed="true">
+    <Position X="89.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgAACAAIAAAIAAAAAAAAAAAAAIAAAAAAAAAAAAABA=</HashCode>
+      <FileName>src\core\network.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkProxyFactory" Collapsed="true">
+    <Position X="84" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAACIAAAAAAABAAIFAAAAAAAABQEQAAgAIIAA=</HashCode>
+      <FileName>src\core\networkproxyfactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Organise" Collapsed="true">
+    <Position X="68.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>src\core\organise.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrganiseFormat" Collapsed="true">
+    <Position X="73.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAAAAAICAAABAgASYBBAAAAACgAQhBAAMAAAAA=</HashCode>
+      <FileName>src\core\organiseformat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInterface" Collapsed="true">
+    <Position X="16" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>woAggEQAAAICAwAESAAABEAABAQAGACAoJAgQAAAwAA=</HashCode>
+      <FileName>src\core\player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="16" Y="40" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UoTgAlwDNAASAgEESAEABEAABASAWACEpJQyYAQAATg=</HashCode>
+      <FileName>src\core\player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PoTranslator" Collapsed="true">
+    <Position X="92.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>src\core\potranslator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QtFSListener" Collapsed="true">
+    <Position X="4.25" Y="38" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAQAAAABAAAAABAAAA=</HashCode>
+      <FileName>src\core\qtfslistener.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QxtGlobalShortcutBackend" Collapsed="true">
+    <Position X="6.75" Y="35" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAkAAAAAAAAAAAAEAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>src\core\qxtglobalshortcutbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScopedGObject&lt;T&gt;" Collapsed="true">
+    <Position X="70" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIEAAAAAAAEEAAAQQAQAAAAAAAAAAQwAAAAAAA=</HashCode>
+      <FileName>src\core\scopedgobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScopedTransaction" Collapsed="true">
+    <Position X="71.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAQAgABAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\scopedtransaction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScopedCFTypeRef&lt;CFT&gt;" Collapsed="true">
+    <Position X="68.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAEAAAAAAAAEAAIQQAAAAAAAAAAAQgAAgQAAAA=</HashCode>
+      <FileName>src\core\scoped_cftyperef.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoped_nsobject&lt;NST&gt;" Collapsed="true">
+    <Position X="94.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEAAAAAAAAEIAAQQAAAAAAAAAAAQgAAgAAAAA=</HashCode>
+      <FileName>src\core\scoped_nsobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoped_nsobject&lt;id&gt;" Collapsed="true">
+    <Position X="92.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAFAAAAAAAAEIAAQQAAAAAAAAAAAQgAAgAAAAA=</HashCode>
+      <FileName>src\core\scoped_nsobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="scoped_nsobject&lt;NSAutoreleasePool&gt;" Collapsed="true">
+    <Position X="91" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>src\core\scoped_nsobject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsProvider" Collapsed="true">
+    <Position X="10" Y="38.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAgAAAAAAAAAAAABAIAAAIAAAAAACAAAQAAAAAAAIA=</HashCode>
+      <FileName>src\core\settingsprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DefaultSettingsProvider" Collapsed="true">
+    <Position X="10" Y="39.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAgAAAAAAAAAAAAAAIAAAAAAAAAACACAQAAAAAAAMA=</HashCode>
+      <FileName>src\core\settingsprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleTreeItem&lt;T&gt;" Collapsed="true">
+    <Position X="34.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAARAAEAAQAAEARABAAEAAACAAEREAAQAAAAAAAJAQA=</HashCode>
+      <FileName>src\core\simpletreeitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleTreeModel&lt;T&gt;" Collapsed="true">
+    <Position X="29.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAYoAAAAJACAAQABQEAAAAAFiAAAAACAARAAA=</HashCode>
+      <FileName>src\core\simpletreemodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Song" Collapsed="true">
+    <Position X="92.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RmwMpsBVdIMLS2pwL0ArsWhWU0M4IQYMRVmrXh37xlI=</HashCode>
+      <FileName>src\core\song.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongLoader" Collapsed="true">
+    <Position X="73.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JACAlAAVIAkBA04IDAEgCEBAUBAogBAEIBAWAgCQEgA=</HashCode>
+      <FileName>src\core\songloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StyleSheetLoader" Collapsed="true">
+    <Position X="91" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIAAAAAAAAAAACAAAAAABAAAAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>src\core\stylesheetloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagReaderClient" Collapsed="true">
+    <Position X="73.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABQCACBBQEAKAAEAAEBABAAAAAERRgAAAAAAAAA=</HashCode>
+      <FileName>src\core\tagreaderclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaskManager" Collapsed="true">
+    <Position X="80.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAJIAAAAAAAIAAAAAIAAAAAgAACAAgAAAgAgAAAIBQ=</HashCode>
+      <FileName>src\core\taskmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thread" Collapsed="true">
+    <Position X="82.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAQAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\thread.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UbuntuUnityHack" Collapsed="true">
+    <Position X="70" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAABAAAAAAIAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\core\ubuntuunityhack.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UrlHandler" Collapsed="true">
+    <Position X="15.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAAAAAAAAAAAAAAAAAARAAAAQAAACAAAAA=</HashCode>
+      <FileName>src\core\urlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScopedWCharArray" Collapsed="true">
+    <Position X="73.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACIAAQAAAAAAEAAAAQAAAAABBAAgAAAgAAAAAAAA=</HashCode>
+      <FileName>src\core\utilities.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverExporter" Collapsed="true">
+    <Position X="78.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgQAAABBAQAAAAAIAAAAEQAAAAEoAAAAAQAEA=</HashCode>
+      <FileName>src\covers\albumcoverexporter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverFetcher" Collapsed="true">
+    <Position X="80.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgAIgAAICAAAAAAAAAgggAAAAAEBEAAAQEABAAAA=</HashCode>
+      <FileName>src\covers\albumcoverfetcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverFetcherSearch" Collapsed="true">
+    <Position X="82.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAEAAIUSIIAEQAAIQABBCAAAAABAABCAAAIAAAARA=</HashCode>
+      <FileName>src\covers\albumcoverfetchersearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverLoader" Collapsed="true">
+    <Position X="39" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oBBAAgAAAIJAAEAAAAgGAAACAAAQAAgAJAIABAQCIAA=</HashCode>
+      <FileName>src\covers\albumcoverloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmazonCoverProvider" Collapsed="true">
+    <Position X="28.25" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQQAIAAAAAAAAAAAAABAAAgAAAAAAAQCAAAAA=</HashCode>
+      <FileName>src\covers\amazoncoverprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverExportRunnable" Collapsed="true">
+    <Position X="89.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAQAgQAAAGIEAAAAAQAAAgAAAAAAAABAA=</HashCode>
+      <FileName>src\covers\coverexportrunnable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverProvider" Collapsed="true">
+    <Position X="30.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>src\covers\coverprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverProviders" Collapsed="true">
+    <Position X="92.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAQAAAAAEAAAAAAAAAAAAAAAgAAAAAhQAAAAIAI=</HashCode>
+      <FileName>src\covers\coverproviders.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverSearchStatisticsDialog" Collapsed="true">
+    <Position X="94.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAEAAAgAAAAABAAAAEAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\covers\coversearchstatisticsdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrentArtLoader" Collapsed="true">
+    <Position X="71.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAABAEAAAAAAAAAAAAABAABEgAggAAAAAAAAAEAgA=</HashCode>
+      <FileName>src\covers\currentartloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KittenLoader" Collapsed="true">
+    <Position X="39" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwgAAAAAABAAAAAAAAAAAAAAAAAAIACAAAAAAAAAA=</HashCode>
+      <FileName>src\covers\kittenloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastFmCoverProvider" Collapsed="true">
+    <Position X="30.5" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\covers\lastfmcoverprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicbrainzCoverProvider" Collapsed="true">
+    <Position X="32.75" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAAAAAAAAIAAAAFAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\covers\musicbrainzcoverprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CddaDevice" Collapsed="true">
+    <Position X="30.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgBAAAAgAAAAAgAAAAAAAAAAEAAGAAAAAAA=</HashCode>
+      <FileName>src\devices\cddadevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CddaLister" Collapsed="true">
+    <Position X="20.25" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAgAAgAAAEQEAAAAAAgAAIAAAIAAAAUCAAEAAAA=</HashCode>
+      <FileName>src\devices\cddalister.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CddaSongLoader" Collapsed="true">
+    <Position X="73.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAAAAAAAAAAAJAABAAAACAAAAAAAgAAAoAAAAAA=</HashCode>
+      <FileName>src\devices\cddasongloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConnectedDevice" Collapsed="true">
+    <Position X="31.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBAABCAQABgAAAgBYACAIgAQAAIAAAAAAACAIAoUEA=</HashCode>
+      <FileName>src\devices\connecteddevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceDatabaseBackend" Collapsed="true">
+    <Position X="75.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUAAAAAAAQCAAAAAAAAAAAAAgAgAAAAAACAAAAAAA=</HashCode>
+      <FileName>src\devices\devicedatabasebackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceKitLister" Collapsed="true">
+    <Position X="22.5" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAEoCAAEQEAAEAAAgAAAAABIAAEAQCAAGAIAA=</HashCode>
+      <FileName>src\devices\devicekitlister.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceLister" Collapsed="true">
+    <Position X="23.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAgAAiaAAEQEwABAEAgAAICCAIAgAAQCAQGAAEA=</HashCode>
+      <FileName>src\devices\devicelister.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceManager" Collapsed="true">
+    <Position X="77" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIRAABgEQACAiAIAAAAgAIAAhAAAAAQgARAQEAHTCEI=</HashCode>
+      <FileName>src\devices\devicemanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceProperties" Collapsed="true">
+    <Position X="78.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACAAAAhAEBIAAAEAAIAAAAAAAAQAIAAAAAABIAA=</HashCode>
+      <FileName>src\devices\deviceproperties.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceStateFilterModel" Collapsed="true">
+    <Position X="80.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>src\devices\devicestatefiltermodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceItemDelegate" Collapsed="true">
+    <Position X="23" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\devices\deviceview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceView" Collapsed="true">
+    <Position X="29.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RFgAgpMAESATAgAQgKAAEAAABpEAAAAEAAAAACCGBBA=</HashCode>
+      <FileName>src\devices\deviceview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceViewContainer" Collapsed="true">
+    <Position X="82.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAQAAAEAAAAAAAAAAAAAAAAAAAAUAAAAAAAAA=</HashCode>
+      <FileName>src\devices\deviceviewcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilesystemDevice" Collapsed="true">
+    <Position X="28" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAFAACABAAAAA=</HashCode>
+      <FileName>src\devices\filesystemdevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GioLister" Collapsed="true">
+    <Position X="24.75" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\devices\giolister.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPodDevice" Collapsed="true">
+    <Position X="31.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAiAQAAAgAQAAiQAAoAAJAhAAMAAGAgAAAAg=</HashCode>
+      <FileName>src\devices\gpoddevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPodLoader" Collapsed="true">
+    <Position X="91" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQIAAAAAAAAAAAQAIAAKIAAAIABAAAAGA=</HashCode>
+      <FileName>src\devices\gpodloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacDeviceLister" Collapsed="true">
+    <Position X="27" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BQIAAAgCAkAhEkUEAAAACAwQAIAAAIIAACQCQAGEAAA=</HashCode>
+      <FileName>src\devices\macdevicelister.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MtpConnection" Collapsed="true">
+    <Position X="71.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAQQAAAAAAAAIAAAAAAAAAAAAgABAAAAAA=</HashCode>
+      <FileName>src\devices\mtpconnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MtpDevice" Collapsed="true">
+    <Position X="35" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACAAiAgAEAAAQAAAQAAogABghAAEAAGAAAAAAg=</HashCode>
+      <FileName>src\devices\mtpdevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MtpLoader" Collapsed="true">
+    <Position X="73.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIQAABAAAAAAAAAAAACAAAAICBAAAAGA=</HashCode>
+      <FileName>src\devices\mtploader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferConsumer" Collapsed="true">
+    <Position X="6.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAAA=</HashCode>
+      <FileName>src\engines\bufferconsumer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeviceFinder" Collapsed="true">
+    <Position X="22.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAABAAQAAAAAAAAAAAAQAAAAAAAgAAQAAAAA=</HashCode>
+      <FileName>src\engines\devicefinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DirectSoundDeviceFinder" Collapsed="true">
+    <Position X="24.75" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAwAAQAA=</HashCode>
+      <FileName>src\engines\directsounddevicefinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GstElementDeleter" Collapsed="true">
+    <Position X="68.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>src\engines\gstelementdeleter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GstEngine" Collapsed="true">
+    <Position X="3.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KBGoioQhQRKIIB8AKBYjABJoOUMBG9Acom4KBoAEF0Q=</HashCode>
+      <FileName>src\engines\gstengine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GstEnginePipeline" Collapsed="true">
+    <Position X="70" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2HcCxbZsFyoJQxcZDEDB4DgAmEKJUtCeYpBDBKoCJjY=</HashCode>
+      <FileName>src\engines\gstenginepipeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsxDeviceFinder" Collapsed="true">
+    <Position X="20.25" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAgA=</HashCode>
+      <FileName>src\engines\osxdevicefinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PulseDeviceFinder" Collapsed="true">
+    <Position X="22.5" Y="33.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAIAAAQAAAAQEAAAAAAAAABAAAAAAAQQAAAA=</HashCode>
+      <FileName>src\engines\pulsedevicefinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitallyImportedSearchProvider" Collapsed="true">
+    <Position X="34.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAEAAAAAAAAAgAAAAAgAAAAAAACAAAA=</HashCode>
+      <FileName>src\globalsearch\digitallyimportedsearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalSearch" Collapsed="true">
+    <Position X="78.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qCCAFB4AAAECLEggAMARAAEAgAgFgDQhgEQAgBIAAQQ=</HashCode>
+      <FileName>src\globalsearch\globalsearch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalSearchItemDelegate" Collapsed="true">
+    <Position X="25.25" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAACAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\globalsearch\globalsearchitemdelegate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalSearchModel" Collapsed="true">
+    <Position X="80.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UBAAAgAABAAQAAgEAAAAAQAABAQAAEAICIgAAABAAIA=</HashCode>
+      <FileName>src\globalsearch\globalsearchmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalSearchSettingsPage" Collapsed="true">
+    <Position X="38.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgIAAAIAAEAABAACAAABAAAAAAAAAQAAAQAAUAAA=</HashCode>
+      <FileName>src\globalsearch\globalsearchsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalSearchSortModel" Collapsed="true">
+    <Position X="82.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAAAAA=</HashCode>
+      <FileName>src\globalsearch\globalsearchsortmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalSearchView" Collapsed="true">
+    <Position X="84" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RICYAlgBAIAAEQQBgQMbIECAKEYAACABIMAKAAoAAA8=</HashCode>
+      <FileName>src\globalsearch\globalsearchview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IcecastSearchProvider" Collapsed="true">
+    <Position X="75.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgBEA=</HashCode>
+      <FileName>src\globalsearch\icecastsearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibrarySearchProvider" Collapsed="true">
+    <Position X="38" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAoAUA=</HashCode>
+      <FileName>src\globalsearch\librarysearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavedRadioSearchProvider" Collapsed="true">
+    <Position X="36.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAACAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAA=</HashCode>
+      <FileName>src\globalsearch\savedradiosearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SearchProvider" Collapsed="true">
+    <Position X="13.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAB4AAABCBAMAAIAAkBCCAgAUABAgAwQCAACAIxA=</HashCode>
+      <FileName>src\globalsearch\searchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SearchProviderStatusWidget" Collapsed="true">
+    <Position X="82.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAUAAAAAEAAAAAAAAAAAAAAAAAAAAMAAAAIAAAA=</HashCode>
+      <FileName>src\globalsearch\searchproviderstatuswidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleSearchProvider" Collapsed="true">
+    <Position X="36.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBCEAAAAAQIACAgAAgAAAAEBAAUACAAAAAAAAAwABA=</HashCode>
+      <FileName>src\globalsearch\simplesearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomaFMSearchProvider" Collapsed="true">
+    <Position X="38.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAACAAAAAAAAAAAAABAAABgAAAAAAACAAAA=</HashCode>
+      <FileName>src\globalsearch\somafmsearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudSearchProvider" Collapsed="true">
+    <Position X="14.75" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEAAAAAACAABAAAAIAAAAAAAAAAABgAgAACAACAAAA=</HashCode>
+      <FileName>src\globalsearch\soundcloudsearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpotifySearchProvider" Collapsed="true">
+    <Position X="17" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAARAAABAEAAAAIAgAAAAAFBBgAAAACARCEAAI=</HashCode>
+      <FileName>src\globalsearch\spotifysearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SuggestionWidget" Collapsed="true">
+    <Position X="94.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>src\globalsearch\suggestionwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UrlSearchProvider" Collapsed="true">
+    <Position X="10.25" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAFEAAAAhBAAAAAAAAAAAA=</HashCode>
+      <FileName>src\globalsearch\urlsearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkSearchProvider" Collapsed="true">
+    <Position X="12.5" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAJAEAAAAAAEEAAAAAAAgAAAACCACAAAA=</HashCode>
+      <FileName>src\globalsearch\vksearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmazonCloudDrive" Collapsed="true">
+    <Position X="22" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIIAAAGIAAADAQAAESAAACgABABAEAAAAgAAAQAA=</HashCode>
+      <FileName>src\internet\amazon\amazonclouddrive.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmazonSettingsPage" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAUAAAAAAAAAAAAAAAAEgAAAAAAEIAAAA=</HashCode>
+      <FileName>src\internet\amazon\amazonsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AmazonUrlHandler" Collapsed="true">
+    <Position X="5.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\amazon\amazonurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxService" Collapsed="true">
+    <Position X="24.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAQAAACAQQAASAAQCgAAAxAEAgBAgAAEAA4=</HashCode>
+      <FileName>src\internet\box\boxservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxSettingsPage" Collapsed="true">
+    <Position X="25.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAUAAAAABAAAAAAAAAAAgAAAAAAEIAAAA=</HashCode>
+      <FileName>src\internet\box\boxsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BoxUrlHandler" Collapsed="true">
+    <Position X="10" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\box\boxurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CloudFileSearchProvider" Collapsed="true">
+    <Position X="38" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAhAAAACAACAAAA=</HashCode>
+      <FileName>src\internet\core\cloudfilesearchprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CloudFileService" Collapsed="true">
+    <Position X="27.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAgACQEAICYA4AAIIAAIAEBAAgAhAABAAAhAAgAhA=</HashCode>
+      <FileName>src\internet\core\cloudfileservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Geolocator" Collapsed="true">
+    <Position X="70" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\core\geolocator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetMimeData" Collapsed="true">
+    <Position X="21.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>src\internet\core\internetmimedata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetModel" Collapsed="true">
+    <Position X="80.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACiAhQYEAAAAgIEAAAMUAEABAAAQAgAAGgACiEAAAQ=</HashCode>
+      <FileName>src\internet\core\internetmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetPlaylistItem" Collapsed="true">
+    <Position X="17" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAIAAgAACAAAAAAAAAAAAAEABAACEAAAAQUAAA=</HashCode>
+      <FileName>src\internet\core\internetplaylistitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetService" Collapsed="true">
+    <Position X="25.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAIhCBECQQEIAEAKhAAAQHBAQEAAgCAGAAAAEIIKA=</HashCode>
+      <FileName>src\internet\core\internetservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetShowSettingsPage" Collapsed="true">
+    <Position X="47.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\core\internetshowsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetSongMimeData" Collapsed="true">
+    <Position X="26.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\core\internetsongmimedata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetView" Collapsed="true">
+    <Position X="36" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\core\internetview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InternetViewContainer" Collapsed="true">
+    <Position X="82.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAAAQEAAIyASAgAABABAAAAAAAACAAAgAAAA=</HashCode>
+      <FileName>src\internet\core\internetviewcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LocalRedirectServer" Collapsed="true">
+    <Position X="70" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAEAABAAAAAAABAAJAAAAAAAAgQAAAAA=</HashCode>
+      <FileName>src\internet\core\localredirectserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OAuthenticator" Collapsed="true">
+    <Position X="92.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAIAAIAAkAAAAAAQAEQAgQAAAAAEiCAIAABBAg=</HashCode>
+      <FileName>src\internet\core\oauthenticator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scrobbler" Collapsed="true">
+    <Position X="38" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQRAIAAAAAACEIAgAAAAAAIgIAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>src\internet\core\scrobbler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SearchBoxWidget" Collapsed="true">
+    <Position X="78.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAAQAIAACQAAAAAAAAgBAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\core\searchboxwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitallyImportedClient" Collapsed="true">
+    <Position X="85.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAAIAAAAAAAAAAAAAkBAAAQAAQAAABBQAAAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitallyImportedServiceBase" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>TASAgYQEEAKiAAYAAABFAAEkBggAABAAIUAEAGCEEAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedservicebase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitallyImportedService" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedservicebase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RadioTunesService" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedservicebase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JazzRadioService" Collapsed="true">
+    <Position X="8.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedservicebase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RockRadioService" Collapsed="true">
+    <Position X="10.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedservicebase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitallyImportedSettingsPage" Collapsed="true">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgYAAAAAAEAAQAAAAAAIAAAACAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitallyImportedUrlHandler" Collapsed="true">
+    <Position X="7.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAABAAAAAAAAAAAAAAAAAAACAABCgAAQAABAEAAAA=</HashCode>
+      <FileName>src\internet\digitally\digitallyimportedurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropboxService" Collapsed="true">
+    <Position X="26.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAABEAJAAIABQAAAQBAAAAACABAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\internet\dropbox\dropboxservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropboxSettingsPage" Collapsed="true">
+    <Position X="32" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAUAAAAAAAgAAAAAAAAAgAAAAAAEIAAAA=</HashCode>
+      <FileName>src\internet\dropbox\dropboxsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DropboxUrlHandler" Collapsed="true">
+    <Position X="16.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\dropbox\dropboxurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDriveService" Collapsed="true">
+    <Position X="28.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKEAAAAYAAAAAAAQACACAGgBIgCAJAEBgAAhABAAAA=</HashCode>
+      <FileName>src\internet\googledrive\googledriveservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDriveSettingsPage" Collapsed="true">
+    <Position X="41" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgJAAAAAAUAAAAAAAAAAAAAAAAAgAAAAAAEIAAAA=</HashCode>
+      <FileName>src\internet\googledrive\googledrivesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoogleDriveUrlHandler" Collapsed="true">
+    <Position X="19" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\googledrive\googledriveurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IcecastBackend" Collapsed="true">
+    <Position X="71.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIhAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAADAAAACAA=</HashCode>
+      <FileName>src\internet\icecast\icecastbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IcecastFilterWidget" Collapsed="true">
+    <Position X="73.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAEAAEAAAAABCAQgAAAAAAAAAAAAAAAAoAAA=</HashCode>
+      <FileName>src\internet\icecast\icecastfilterwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IcecastItem" Collapsed="true">
+    <Position X="35.25" Y="36.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\icecast\icecastitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IcecastModel" Collapsed="true">
+    <Position X="30.25" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAwAIBAAABBAEAAgEAAAGAEAAAAABAAQYAAAAAkQ=</HashCode>
+      <FileName>src\internet\icecast\icecastmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IcecastService" Collapsed="true">
+    <Position X="37.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAEAcAoAQAQAxAAAAkBAAAABAAAAAAAAEIAEA=</HashCode>
+      <FileName>src\internet\icecast\icecastservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavedRadio" Collapsed="true">
+    <Position X="40" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKBAAACMAAAAAQAQAAAAA4UBgAAABACgAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\internetradio\savedradio.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JamendoDynamicPlaylist" Collapsed="true">
+    <Position X="34.75" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAgYBIAAIAAACAAAEAAAAABIABAAAAAAAgAEAkAAA=</HashCode>
+      <FileName>src\internet\jamendo\jamendodynamicplaylist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JamendoPlaylistItem" Collapsed="true">
+    <Position X="14.75" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAACAAAAAAQAAA=</HashCode>
+      <FileName>src\internet\jamendo\jamendoplaylistitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JamendoService" Collapsed="true">
+    <Position X="44.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ISKyCACQEAeA4AQBYgBgAQAkFAAAAQAjAgBABABAAsA=</HashCode>
+      <FileName>src\internet\jamendo\jamendoservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastFMService" Collapsed="true">
+    <Position X="38" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCyRTNBEAiAK+MIRiAAAAIgMgIQEAAICEAEICMAQAQ=</HashCode>
+      <FileName>src\internet\lastfm\lastfmservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastFMSettingsPage" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAEAAEAAAAABAAgKAAAAAAAgAAAAAAAAAQAA=</HashCode>
+      <FileName>src\internet\lastfm\lastfmsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastFMUrlHandler" Collapsed="true">
+    <Position X="3.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAAAAAAAAAAgAAAAAAAAABAgAAQAAACAAAAI=</HashCode>
+      <FileName>src\internet\lastfm\lastfmurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagnatuneDownloadDialog" Collapsed="true">
+    <Position X="73.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAALIAkQQQAAQAEQAACAAEAAgAAAAIAAAIAAA=</HashCode>
+      <FileName>src\internet\magnatune\magnatunedownloaddialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagnatunePlaylistItem" Collapsed="true">
+    <Position X="12.5" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAgAAQAAA=</HashCode>
+      <FileName>src\internet\magnatune\magnatuneplaylistitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagnatuneService" Collapsed="true">
+    <Position X="17.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAACQEAYQxC0AYIBgBQGkBDIAABAgAkFABiCBAIg=</HashCode>
+      <FileName>src\internet\magnatune\magnatuneservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagnatuneSettingsPage" Collapsed="true">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgYAAAAIAEAAAABAAAAIAgAACAAAAAAQAAAAAABA=</HashCode>
+      <FileName>src\internet\magnatune\magnatunesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MagnatuneUrlHandler" Collapsed="true">
+    <Position X="12.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAQAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\magnatune\magnatuneurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddPodcastByUrl" Collapsed="true">
+    <Position X="19.25" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAGAAAAAAAAAAAABAEAAAAAAAACCAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\addpodcastbyurl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddPodcastDialog" Collapsed="true">
+    <Position X="71.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAACCAUKAAAAAAQQAAEAAEgIAkAAAiAAkAGBI=</HashCode>
+      <FileName>src\internet\podcasts\addpodcastdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddPodcastPage" Collapsed="true">
+    <Position X="23.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>src\internet\podcasts\addpodcastpage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedOpmlPage" Collapsed="true">
+    <Position X="21.5" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgCAAQAAAAAAAAAAAAAAEAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\fixedopmlpage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPodderSearchPage" Collapsed="true">
+    <Position X="23.75" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAIAEAAAAAAAAAAAAAAEAAIAAAAAAAABAAA=</HashCode>
+      <FileName>src\internet\podcasts\gpoddersearchpage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPodderSync" Collapsed="true">
+    <Position X="89.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAKAAxRAACKAAACgAABAAAsAQoEIQAKAEACQAgAEAEA=</HashCode>
+      <FileName>src\internet\podcasts\gpoddersync.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPodderTopTagsModel" Collapsed="true">
+    <Position X="13" Y="38" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAABAAAgAAAAAAAAAAAAAAAAAAAAgAAAAACAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\gpoddertoptagsmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GPodderTopTagsPage" Collapsed="true">
+    <Position X="26" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAgAIAAAAAAAAAAAAAAAAEAAAEAAAQAIAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\gpoddertoptagspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITunesSearchPage" Collapsed="true">
+    <Position X="28.25" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAAIAEAAAAAAAAAAAAAAEAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\itunessearchpage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OpmlContainer" Collapsed="true">
+    <Position X="94.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAMCAAAAAAAAEAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\opmlcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Podcast" Collapsed="true">
+    <Position X="73.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAMAAAENZgAEQCAxIADAAIgSKAAsAAEEACAgBQnUAVA=</HashCode>
+      <FileName>src\internet\podcasts\podcast.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastBackend" Collapsed="true">
+    <Position X="75.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoQABACAAAQIAAAIAAAAAwAAAECCAAASAAABACAAAI=</HashCode>
+      <FileName>src\internet\podcasts\podcastbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastDeleter" Collapsed="true">
+    <Position X="77" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABIAAAAAAAAAAAAAIAAAAAAAAAAAAEAAABAAAEA=</HashCode>
+      <FileName>src\internet\podcasts\podcastdeleter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastDiscoveryModel" Collapsed="true">
+    <Position X="13" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAQCAAAEAAAAAAAAAAAAAACAAAAQAEBQAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcastdiscoverymodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task" Collapsed="true">
+    <Position X="78.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAoAAQABIIAAAAAEAAAAAAAQAAAAAAEAAEA=</HashCode>
+      <FileName>src\internet\podcasts\podcastdownloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastDownloader" Collapsed="true">
+    <Position X="78.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgDACCAIAAAAAABAAAAgQEAAAAAAAAABAAAFAAEA=</HashCode>
+      <FileName>src\internet\podcasts\podcastdownloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastEpisode" Collapsed="true">
+    <Position X="80.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAkMFRAAGQCJQYQAAAIgSIAAMADEGIAAgAADYBBA=</HashCode>
+      <FileName>src\internet\podcasts\podcastepisode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastInfoWidget" Collapsed="true">
+    <Position X="82.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAABAAAAAQEAAAAAAEAAAAAAQAAAAAAAAAAAAAgAQ=</HashCode>
+      <FileName>src\internet\podcasts\podcastinfowidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastParser" Collapsed="true">
+    <Position X="84" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAAAgAIABAAAAABAAAAAAACAAIAABQAAAACAAIBAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcastparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastService" Collapsed="true">
+    <Position X="19.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCKKCAAjGBAUAE1EQAhwAEgEBgQBAFGAEMSIBmJ4GVQ=</HashCode>
+      <FileName>src\internet\podcasts\podcastservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastServiceModel" Collapsed="true">
+    <Position X="85.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcastservicemodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastSettingsPage" Collapsed="true">
+    <Position X="34.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgYAAAAAAECAAAAAAAAAAAAAAAAAAAAAAAEAAAAE=</HashCode>
+      <FileName>src\internet\podcasts\podcastsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastUpdater" Collapsed="true">
+    <Position X="87.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAQCBAABAgAAAAAAgAAAAAEBAAAABAAAQAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcastupdater.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastUrlLoaderReply" Collapsed="true">
+    <Position X="91" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQAAAEgABAAIAAAEBEAIgAAAAABCAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcasturlloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PodcastUrlLoader" Collapsed="true">
+    <Position X="89.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KBCAgAAAABKAAgAABAAAACABAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcasturlloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeafileService" Collapsed="true">
+    <Position X="31" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABiAgQQIAISAAACAQIQASYAEAAGgRBJQCMAAhRAgAUA=</HashCode>
+      <FileName>src\internet\seafile\seafileservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeafileSettingsPage" Collapsed="true">
+    <Position X="43.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAEAAAAAAAAAIAAAAAAAgAAAAAQAAAAQA=</HashCode>
+      <FileName>src\internet\seafile\seafilesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeafileTree" Collapsed="true">
+    <Position X="75.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgSAIAQAAEEAAAAgAAABQAAAAEABAAAAABABEAAA=</HashCode>
+      <FileName>src\internet\seafile\seafiletree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeafileUrlHandler" Collapsed="true">
+    <Position X="21.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\seafile\seafileurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkydriveService" Collapsed="true">
+    <Position X="33.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAACAQQAASAAAAgAAABAEAgABgAAAAAA=</HashCode>
+      <FileName>src\internet\skydrive\skydriveservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkydriveSettingsPage" Collapsed="true">
+    <Position X="52.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAUAAAAABAAAAAAAAAAAgAAAAAAEIAAAA=</HashCode>
+      <FileName>src\internet\skydrive\skydrivesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkydriveUrlHandler" Collapsed="true">
+    <Position X="25.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\skydrive\skydriveurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomaFMServiceBase" Collapsed="true">
+    <Position X="42.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIABgAAEsAICAAQAAABAEkAkBAAAARAABWAEAACEIAA=</HashCode>
+      <FileName>src\internet\somafm\somafmservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomaFMService" Collapsed="true">
+    <Position X="42.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\somafm\somafmservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SomaFMUrlHandler" Collapsed="true">
+    <Position X="28" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFAAABAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\somafm\somafmurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudService" Collapsed="true">
+    <Position X="46.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GACDAoICGBcAwgQiQABgQOJlTgCIgBAAIAhDAaIgAEA=</HashCode>
+      <FileName>src\internet\soundcloud\soundcloudservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundCloudSettingsPage" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAiIAAAAAAUAAAAAAAAAAAAAAAAAgAAAAAAEIAAAA=</HashCode>
+      <FileName>src\internet\soundcloud\soundcloudsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpotifyBlobDownloader" Collapsed="true">
+    <Position X="80.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCIAAAASACRAECAAAAAAAAAEFIAAAACAAAA=</HashCode>
+      <FileName>src\internet\spotify\spotifyblobdownloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpotifyServer" Collapsed="true">
+    <Position X="82.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEMIBgUAwAIwAEBACBAsDABeAAAQAAAgAQISAQApAEA=</HashCode>
+      <FileName>src\internet\spotify\spotifyserver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpotifyService" Collapsed="true">
+    <Position X="13" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgGKqQEQGYQykG1AYABIMPIODkAAhhQjAWp3YQcBEEM=</HashCode>
+      <FileName>src\internet\spotify\spotifyservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpotifySettingsPage" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAgYgAAAAAEAAAAAAAAAIAAAAAAAgBAARAAAAAACA=</HashCode>
+      <FileName>src\internet\spotify\spotifysettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubsonicDynamicPlaylist" Collapsed="true">
+    <Position X="32.5" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAgIAAAAAAIAAAEEAAABABAAghAAgAAAAgAEAAAAA=</HashCode>
+      <FileName>src\internet\subsonic\subsonicdynamicplaylist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubsonicService" Collapsed="true">
+    <Position X="15.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAACQERYIwGUAYEAgBYGEBAAAAhAgAELQBgKQAIA=</HashCode>
+      <FileName>src\internet\subsonic\subsonicservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubsonicLibraryScanner" Collapsed="true">
+    <Position X="92.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIABAUIAAAAABAYAEIgAAgAAAAAAAAAAIA=</HashCode>
+      <FileName>src\internet\subsonic\subsonicservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubsonicSettingsPage" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAEAAAAAAAAAIAAABAAAgAAAAQAAAAAAA=</HashCode>
+      <FileName>src\internet\subsonic\subsonicsettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubsonicUrlHandler" Collapsed="true">
+    <Position X="14.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAAAAAAAA=</HashCode>
+      <FileName>src\internet\subsonic\subsonicurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkConnection" Collapsed="true">
+    <Position X="80.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEgAAAIAAAIAEAAACgAAUABAEAAQgAAEBDAQAQAAAAA=</HashCode>
+      <FileName>src\internet\vk\vkconnection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkMusicCache" Collapsed="true">
+    <Position X="82.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAChABgQgAAABAIABAQAAAEBAACAgAAAAqgAAAAAA=</HashCode>
+      <FileName>src\internet\vk\vkmusiccache.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkSearchDialog" Collapsed="true">
+    <Position X="84" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAQABAAAMAIAAABAAAAAAAAAAAgAAAAAAgIAIAA=</HashCode>
+      <FileName>src\internet\vk\vksearchdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicOwner" Collapsed="true">
+    <Position X="80.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgACAAAYAAAAAAAACAAAAAAAAQEAAAAAACAAAAAIgA=</HashCode>
+      <FileName>src\internet\vk\vkservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkService" Collapsed="true">
+    <Position X="35.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>B+CgBQreOeZQswVteTFHANsGHtwWCRVSlGGYWUqkkCk=</HashCode>
+      <FileName>src\internet\vk\vkservice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkSettingsPage" Collapsed="true">
+    <Position X="50" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgIAAAAAAEAAAAAgBAAIAAAAAAAgAEAAQAAAAACA=</HashCode>
+      <FileName>src\internet\vk\vksettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VkUrlHandler" Collapsed="true">
+    <Position X="23.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAAAAAAAAAAAAAAAAAAAAAAABAgAAQAAACAAAAA=</HashCode>
+      <FileName>src\internet\vk\vkurlhandler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroupByDialog" Collapsed="true">
+    <Position X="92.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAAAAAAAAAACAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>src\library\groupbydialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Library" Collapsed="true">
+    <Position X="84" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQRABAKIAAAABAAAAoARCAAAAEAAAhAIKRAAIIsQ=</HashCode>
+      <FileName>src\library\library.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryBackendInterface" Collapsed="true">
+    <Position X="7" Y="36.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAQIgAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\library\librarybackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryBackend" Collapsed="true">
+    <Position X="7" Y="38" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xwQhUBQIAQCSIADkICgYIwhwEsIwAgGRAlIjIRggAyI=</HashCode>
+      <FileName>src\library\librarybackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryDirectoryModel" Collapsed="true">
+    <Position X="85.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAABgAAAEAAQAAAAAAAAAQAAAQAAAAAEA=</HashCode>
+      <FileName>src\library\librarydirectorymodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryFilterWidget" Collapsed="true">
+    <Position X="87.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKFQAAAAAAAEEAAQADACAQgAILQBQ6AQEAACQgwIERA=</HashCode>
+      <FileName>src\library\libraryfilterwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryItem" Collapsed="true">
+    <Position X="33" Y="36.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAEAE=</HashCode>
+      <FileName>src\library\libraryitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryModel" Collapsed="true">
+    <Position X="28" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JBQCAjMFjAOwNEAEJMDkEDIFAUKkIU6SSggasRkp18Q=</HashCode>
+      <FileName>src\library\librarymodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryPlaylistItem" Collapsed="true">
+    <Position X="13.5" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAQAAAAAQEAAAAAEAAAACAAAAAAUAAA=</HashCode>
+      <FileName>src\library\libraryplaylistitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryQuery" Collapsed="true">
+    <Position X="89.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgAAEAAgAIIAAAQAECAAAAAAAAEIABASEAQoAEAgEAA=</HashCode>
+      <FileName>src\library\libraryquery.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibrarySettingsPage" Collapsed="true">
+    <Position X="36.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACggIAAACAAEAAAAAAABAAAAACAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>src\library\librarysettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryItemDelegate" Collapsed="true">
+    <Position X="24.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\library\libraryview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryView" Collapsed="true">
+    <Position X="31.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DgSAABGiCCC2QoQQJYiwAFtgAlEKIJEYAkQxgAIEACA=</HashCode>
+      <FileName>src\library\libraryview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryViewContainer" Collapsed="true">
+    <Position X="91" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAEAAAAAAAAIAAAUAAAAAAAAA=</HashCode>
+      <FileName>src\library\libraryviewcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryWatcher" Collapsed="true">
+    <Position X="92.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAAEgC8CIAZAAICggQqIEDIACwACAQJAAgITYAQVM=</HashCode>
+      <FileName>src\library\librarywatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavedGroupingManager" Collapsed="true">
+    <Position X="89.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAABAQgABAAAAAAAAAAACAAAAAAIAIA=</HashCode>
+      <FileName>src\library\savedgroupingmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SqlRow" Collapsed="true">
+    <Position X="84" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAACAAAAAiAAAAAAA=</HashCode>
+      <FileName>src\library\sqlrow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarBuilder" Collapsed="true">
+    <Position X="77" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAAAAAEAAAADAAAAAAiAAAAAAk=</HashCode>
+      <FileName>src\moodbar\moodbarbuilder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarController" Collapsed="true">
+    <Position X="78.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAACAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>src\moodbar\moodbarcontroller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarItemDelegate" Collapsed="true">
+    <Position X="80.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAgJAAACAiCAAAAABAAAAAAAAEAAAIAAYAAAQAAAA=</HashCode>
+      <FileName>src\moodbar\moodbaritemdelegate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarLoader" Collapsed="true">
+    <Position X="82.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAgAAAAAASAAAAAAAAAAEAAAAAIEBAEAAACAAAAIQ=</HashCode>
+      <FileName>src\moodbar\moodbarloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarPipeline" Collapsed="true">
+    <Position X="84" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJCBAAABAgAICAAAAIAgEQAAAQJAIAAQBMAAAAA=</HashCode>
+      <FileName>src\moodbar\moodbarpipeline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarProxyStyle" Collapsed="true">
+    <Position X="85.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAJCIAIAEAIYECogAAACAFBAgAAAEIZAISAKAAAA=</HashCode>
+      <FileName>src\moodbar\moodbarproxystyle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoodbarRenderer" Collapsed="true">
+    <Position X="87.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAEABEAgAACAAA=</HashCode>
+      <FileName>src\moodbar\moodbarrenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AcoustidClient" Collapsed="true">
+    <Position X="70" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABCACAQCIAAAAAAAAACAAABAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>src\musicbrainz\acoustidclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chromaprinter" Collapsed="true">
+    <Position X="75.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIBBAAAAAAAAIAAAAAIAgACAgAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>src\musicbrainz\chromaprinter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MusicBrainzClient" Collapsed="true">
+    <Position X="78.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQBCAQAQCMAABEEBAwEAAAQAAAAgAAAEAgAgAAAAAA=</HashCode>
+      <FileName>src\musicbrainz\musicbrainzclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagFetcher" Collapsed="true">
+    <Position X="71.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAIAAAQAAAAAAAAQAgAAAAAAAAQAAAEEAAA=</HashCode>
+      <FileName>src\musicbrainz\tagfetcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avahi" Collapsed="true">
+    <Position X="34.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>src\networkremote\avahi.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Bonjour" Collapsed="true">
+    <Position X="36.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAQAAAAAAAACAAABAAA=</HashCode>
+      <FileName>src\networkremote\bonjour.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IncomingDataParser" Collapsed="true">
+    <Position X="78.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhwgQhIAIAgCJjBAARAAAAAAAAQAAgaIoBIoAEGgEQo=</HashCode>
+      <FileName>src\networkremote\incomingdataparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkRemote" Collapsed="true">
+    <Position X="85.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAIAAhACAAAAARAggABAiAAARAAACAEIAEggAQAAACA=</HashCode>
+      <FileName>src\networkremote\networkremote.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkRemoteHelper" Collapsed="true">
+    <Position X="87.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCABAAAAAAAAAAAAAEAABgAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>src\networkremote\networkremotehelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutgoingDataCreator" Collapsed="true">
+    <Position X="78.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ALGQFBIACYIBhQAIAEEMggAAAAEoAgC4CBIgAAChsCw=</HashCode>
+      <FileName>src\networkremote\outgoingdatacreator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RemoteClient" Collapsed="true">
+    <Position X="82.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAIABAgAIAEQCEAJAAgAQgAAAAKAAAAAAAABgAAABA=</HashCode>
+      <FileName>src\networkremote\remoteclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongSender" Collapsed="true">
+    <Position X="78.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQEBAAADgBQACAAAAAAAgAAAACAACAAJCAEABEAAA=</HashCode>
+      <FileName>src\networkremote\songsender.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TinySVCMDNS" Collapsed="true">
+    <Position X="38.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAABACAAAAAAA=</HashCode>
+      <FileName>src\networkremote\tinysvcmdns.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zeroconf" Collapsed="true">
+    <Position X="36.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEQAAABAABAAAAAAAAACAIAAAAA=</HashCode>
+      <FileName>src\networkremote\zeroconf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AsxIniParser" Collapsed="true">
+    <Position X="16" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAABAAAAAAAAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\asxiniparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ASXParser" Collapsed="true">
+    <Position X="13.75" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAABAAAAAAAAAAIAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\asxparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CueParser" Collapsed="true">
+    <Position X="2.5" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgIEABAAACABCCEADAAAKAIAEBACBAAIAAAACIAA=</HashCode>
+      <FileName>src\playlistparsers\cueparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="M3UParser" Collapsed="true">
+    <Position X="4.75" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAABABACAAAAgAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\m3uparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParserBase" Collapsed="true">
+    <Position X="9.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkIAAAAAAAABACAAAACAAAIAEAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\parserbase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistParser" Collapsed="true">
+    <Position X="91" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIEAAAAQAAAAAAAAAACIAJAAAAAAFAAAAIAAEEA=</HashCode>
+      <FileName>src\playlistparsers\playlistparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PLSParser" Collapsed="true">
+    <Position X="7" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAABAAAAAAAAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\plsparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WplParser" Collapsed="true">
+    <Position X="9.25" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAIABACAAAAAAAAIAGAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>src\playlistparsers\wplparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XMLParser" Collapsed="true">
+    <Position X="11.5" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\xmlparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="XSPFParser" Collapsed="true">
+    <Position X="11.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAABAAAAAAAAAAIAEAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\playlistparsers\xspfparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicPlaylistControls" Collapsed="true">
+    <Position X="87.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAACAEAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\dynamicplaylistcontrols.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInsertVetoListener" Collapsed="true">
+    <Position X="70" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Playlist" Collapsed="true">
+    <Position X="80.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BR2y3JLQ8DIA8w/Ebh3OPd+KE2IJDKiqQ8m0yeLFVs4=</HashCode>
+      <FileName>src\playlist\playlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistBackend" Collapsed="true">
+    <Position X="82.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIDgBAAgAAQACAAACAAAAAAABQBEAAUACAABAAAEgA=</HashCode>
+      <FileName>src\playlist\playlistbackend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistContainer" Collapsed="true">
+    <Position X="84" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgGAAIAQQgAAUQQAUCAgAsgADQKDIwICgQAAQwoBkgA=</HashCode>
+      <FileName>src\playlist\playlistcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueuedItemDelegate" Collapsed="true">
+    <Position X="13" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAAgAAAgAIAAAoAAAQQAAAAAAAAAAAAAAQAAAIBAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistDelegateBase" Collapsed="true">
+    <Position X="13" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAASAAAAAAAQAAAAAAAAAAEAAAAAAAQAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LengthItemDelegate" Collapsed="true">
+    <Position X="9.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizeItemDelegate" Collapsed="true">
+    <Position X="12" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DateItemDelegate" Collapsed="true">
+    <Position X="14.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastPlayedItemDelegate" Collapsed="true">
+    <Position X="16.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileTypeItemDelegate" Collapsed="true">
+    <Position X="18.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextItemDelegate" Collapsed="true">
+    <Position X="21" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RatingItemDelegate" Collapsed="true">
+    <Position X="23.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAAAAAQACCAIAAEAAAAAAAAAAQAAAQAAQAAIAEAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagCompletionModel" Collapsed="true">
+    <Position X="70" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagCompleter" Collapsed="true">
+    <Position X="68.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagCompletionItemDelegate" Collapsed="true">
+    <Position X="3" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAwAAEA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NativeSeparatorsDelegate" Collapsed="true">
+    <Position X="5.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongSourceDelegate" Collapsed="true">
+    <Position X="7.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AGgAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>src\playlist\playlistdelegates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistFilter" Collapsed="true">
+    <Position X="85.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAMAAABAAAAIAAAAAABAEAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistfilter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterTree" Collapsed="true">
+    <Position X="10" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAEABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistfilterparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NopFilter" Collapsed="true">
+    <Position X="10" Y="36.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistfilterparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterParser" Collapsed="true">
+    <Position X="87.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAhCAAAAAAEABAAAEAACAABAEgAJAAIAU=</HashCode>
+      <FileName>src\playlist\playlistfilterparser.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistHeader" Collapsed="true">
+    <Position X="10" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiIAAAAAACACgAgQAQCAJQAAAABgAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>src\playlist\playlistheader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistItem" Collapsed="true">
+    <Position X="13.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAAiYAAACoAESAUAaAAYAAEIAEFAAAACAAAgBAURIA=</HashCode>
+      <FileName>src\playlist\playlistitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistItemMimeData" Collapsed="true">
+    <Position X="24" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistitemmimedata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistListContainer" Collapsed="true">
+    <Position X="87.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABgBAaw4AQEhwQAgQAAwAABAIAAAIAAIAAAAAoEBA=</HashCode>
+      <FileName>src\playlist\playlistlistcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistListModel" Collapsed="true">
+    <Position X="89.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEACEBQBAICCAAAAAAABgAAAEAAAAAAAEgQRAIAAEA=</HashCode>
+      <FileName>src\playlist\playlistlistmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistListView" Collapsed="true">
+    <Position X="33.75" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistlistview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistManagerInterface" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SBEDxIBEAYsgIRUIAAAgBgAAkAEAgAYAAwJAYAKBugQ=</HashCode>
+      <FileName>src\playlist\playlistmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistManager" Collapsed="true">
+    <Position X="31" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SFQDgJBVQAkkIFVIBAAgBAAIwAMAxQYgGwLCYECJugA=</HashCode>
+      <FileName>src\playlist\playlistmanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistSaveOptionsDialog" Collapsed="true">
+    <Position X="94.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAACAAAAAEAAAAAAAAEAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>src\playlist\playlistsaveoptionsdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistSequence" Collapsed="true">
+    <Position X="68.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAEMQAAIIAAAQCQASBAAAQAABggAGBAAA=</HashCode>
+      <FileName>src\playlist\playlistsequence.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistTabBar" Collapsed="true">
+    <Position X="70" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>Ch6AoICAAtAAAECYQAIAUcBAIASAIoIACJAAgAGAgFA=</HashCode>
+      <FileName>src\playlist\playlisttabbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistProxyStyle" Collapsed="true">
+    <Position X="92.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAEAAAACAA=</HashCode>
+      <FileName>src\playlist\playlistview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistView" Collapsed="true">
+    <Position X="71.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>PtXLBlBRIER2goY43ZDxdsCQadSVIYdnBLCwGNNUOQ0=</HashCode>
+      <FileName>src\playlist\playlistview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Queue" Collapsed="true">
+    <Position X="73.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEADAAQQIAAAAJFAAAEBAAEAAChAAAAQIAQABBDAEQ=</HashCode>
+      <FileName>src\playlist\queue.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QueueManager" Collapsed="true">
+    <Position X="75.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAggEAAAAAAABEAIAAAAAAAASEAAAABAAAA=</HashCode>
+      <FileName>src\playlist\queuemanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongLoaderInserter" Collapsed="true">
+    <Position X="75.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgkCAAAAAAIUSAAAMAABAAAEQAACAAAAAABAAAAgA=</HashCode>
+      <FileName>src\playlist\songloaderinserter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongMimeData" Collapsed="true">
+    <Position X="17.25" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\songmimedata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongPlaylistItem" Collapsed="true">
+    <Position X="10.25" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAAAAAAAAAAEAAAAAAAAAACAAAAAAUAAA=</HashCode>
+      <FileName>src\playlist\songplaylistitem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RipCDDialog" Collapsed="true">
+    <Position X="85.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACRAAAEACBAEAgACAQAAAAMACAEIBAAAAAACABJAYA=</HashCode>
+      <FileName>src\ripper\ripcddialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ripper" Collapsed="true">
+    <Position X="87.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAIAYaAQCAACSEAKAAgAAACUACALCCAggAGAIAg=</HashCode>
+      <FileName>src\ripper\ripper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArtistInfoView" Collapsed="true">
+    <Position X="18" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\artistinfoview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapsibleInfoHeader" Collapsed="true">
+    <Position X="80.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CSAAgAIEQAAiAACgBAABAAFAABAAAIAAAQAAAQAAABg=</HashCode>
+      <FileName>src\songinfo\collapsibleinfoheader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CollapsibleInfoPane" Collapsed="true">
+    <Position X="82.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAASCACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAgA=</HashCode>
+      <FileName>src\songinfo\collapsibleinfopane.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EchoNestBiographies" Collapsed="true">
+    <Position X="7.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEBAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\echonestbiographies.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EchoNestImages" Collapsed="true">
+    <Position X="9.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIQAAAAABRAAAAAABAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\echonestimages.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EchoNestSimilarArtists" Collapsed="true">
+    <Position X="11.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\echonestsimilarartists.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EchoNestTags" Collapsed="true">
+    <Position X="14" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\echonesttags.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LastfmTrackInfoProvider" Collapsed="true">
+    <Position X="16.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAEAAAAAAAAAAAAEACAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\lastfmtrackinfoprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInfoBase" Collapsed="true">
+    <Position X="19.25" Y="35.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BASACCAAAAIABgQIAAAAQAAIEAAAQAECAFCgEABYQAA=</HashCode>
+      <FileName>src\songinfo\songinfobase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInfoFetcher" Collapsed="true">
+    <Position X="94.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAARgAQAACAAAABAAAAAEAACAgAIAIAAAEAAAgAA=</HashCode>
+      <FileName>src\songinfo\songinfofetcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInfoProvider" Collapsed="true">
+    <Position X="10.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgQAAAAAAAABQAAAAAAAAEIAAAAAAAQAAAABA=</HashCode>
+      <FileName>src\songinfo\songinfoprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInfoSettingsPage" Collapsed="true">
+    <Position X="54.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAIQAEAAAICAAAAgAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\songinfosettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInfoTextView" Collapsed="true">
+    <Position X="68.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKIAAAEAQAAAAAQAAAAAgAAAAAAIAAUAAAAEAACAAA=</HashCode>
+      <FileName>src\songinfo\songinfotextview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongInfoView" Collapsed="true">
+    <Position X="20.25" Y="37" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBCAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAgEAAAAAA=</HashCode>
+      <FileName>src\songinfo\songinfoview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongkickConcerts" Collapsed="true">
+    <Position X="18.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAIAAAIAAAAAAAAAAAAEAAAAEAAAAAAAEAA=</HashCode>
+      <FileName>src\songinfo\songkickconcerts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongKickConcertWidget" Collapsed="true">
+    <Position X="71.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAIAEACAAAAAAAEQAAAAAAAAAgACAAIAAAA=</HashCode>
+      <FileName>src\songinfo\songkickconcertwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SongPlayStats" Collapsed="true">
+    <Position X="77" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIQAAAAAAAAAAABAgAIAEAgAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\songplaystats.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagLyricsInfoProvider" Collapsed="true">
+    <Position X="2.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\taglyricsinfoprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagWidgetTag" Collapsed="true">
+    <Position X="77" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAIQAYAQAADAAAwBAAAAAFAACAAAIAIAAAAAQAAQAA=</HashCode>
+      <FileName>src\songinfo\tagwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TagWidget" Collapsed="true">
+    <Position X="75.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAACACACBIEABAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>src\songinfo\tagwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UltimateLyricsLyric" Collapsed="true">
+    <Position X="71.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\songinfo\ultimatelyricslyric.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UltimateLyricsProvider" Collapsed="true">
+    <Position X="5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQCIARDBARJFgQAoAECAEAgQEMEgACCpQIQg=</HashCode>
+      <FileName>src\songinfo\ultimatelyricsprovider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UltimateLyricsReader" Collapsed="true">
+    <Position X="73.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAgAAAABA=</HashCode>
+      <FileName>src\songinfo\ultimatelyricsreader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscodeDialog" Collapsed="true">
+    <Position X="92.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACDAAAAQ2AQEAQAaAQCBgwJAAAQIAIAggAgCABBAAA=</HashCode>
+      <FileName>src\transcoder\transcodedialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Transcoder" Collapsed="true">
+    <Position X="94.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAJAAQAABAAAAQBACgEGgAIAAAQIAABgEASABIAA=</HashCode>
+      <FileName>src\transcoder\transcoder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsAAC" Collapsed="true">
+    <Position X="21.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsaac.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsDialog" Collapsed="true">
+    <Position X="68.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAUAAAAAAAAAAAAEAAAgAAAAAAAAAAAIA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsFlac" Collapsed="true">
+    <Position X="23.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIABAAAAEAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsflac.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsInterface" Collapsed="true">
+    <Position X="28.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACgIAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAAA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsinterface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsMP3" Collapsed="true">
+    <Position X="26" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAEAAAAQAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsmp3.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsOpus" Collapsed="true">
+    <Position X="28.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsopus.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsSpeex" Collapsed="true">
+    <Position X="30.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAEAAAAAAAAAAAAAABAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsspeex.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsVorbis" Collapsed="true">
+    <Position X="32.75" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionsvorbis.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderOptionsWma" Collapsed="true">
+    <Position X="35" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>src\transcoder\transcoderoptionswma.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TranscoderSettingsPage" Collapsed="true">
+    <Position X="56.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>src\transcoder\transcodersettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="About" Collapsed="true">
+    <Position X="68.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAEAAAAwAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\about.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddStreamDialog" Collapsed="true">
+    <Position X="73.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAACEAAAEEAAAAAAAAAAAAAEMQAAAAAAACABAAAA=</HashCode>
+      <FileName>src\ui\addstreamdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverChoiceController" Collapsed="true">
+    <Position X="75.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAACBAgCCIYAAgqQAgIAgKCFgHgBCiBAACKACgAgCA=</HashCode>
+      <FileName>src\ui\albumcoverchoicecontroller.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverExport" Collapsed="true">
+    <Position X="77" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAIAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\albumcoverexport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverManager" Collapsed="true">
+    <Position X="84" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DpCpEBCwBQAIFQRQEIABCiYQDMhhASIgAEAqIBIEgJA=</HashCode>
+      <FileName>src\ui\albumcovermanager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverManagerList" Collapsed="true">
+    <Position X="85.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAIAAAAAAAAAACAAAAAEAAAA=</HashCode>
+      <FileName>src\ui\albumcovermanagerlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SizeOverlayDelegate" Collapsed="true">
+    <Position X="91" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAAAAAAAAAAgAACAIAAAAAAAAAAAAAAEAAAAgQA=</HashCode>
+      <FileName>src\ui\albumcoversearcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlbumCoverSearcher" Collapsed="true">
+    <Position X="87.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEDIAAAAAEAAIAAAAIAIAAAAAAhAAAAICAAAIAoA=</HashCode>
+      <FileName>src\ui\albumcoversearcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppearanceSettingsPage" Collapsed="true">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAgIAgQAGAEIAEAgwYABAACAAAEBAAAAgAAACABAg=</HashCode>
+      <FileName>src\ui\appearancesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackgroundStreamsSettingsPage" Collapsed="true">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAEAAAAAQAAAAEAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>src\ui\backgroundstreamssettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BehaviourSettingsPage" Collapsed="true">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAgIAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>src\ui\behavioursettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Console" Collapsed="true">
+    <Position X="87.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\console.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoverFromURLDialog" Collapsed="true">
+    <Position X="91" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAEACAAAAAAQAAAAAAABAAAAAEAAAAAAA=</HashCode>
+      <FileName>src\ui\coverfromurldialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DBusScreensaver" Collapsed="true">
+    <Position X="2.25" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEiAAAAACAAAAABAAAAAAAAAAAAAgAEAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\dbusscreensaver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditTagDialog" Collapsed="true">
+    <Position X="89.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCCYBJiohCkYEAoAARAFAgASVoAABiUAAgVIRwIQAkA=</HashCode>
+      <FileName>src\ui\edittagdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Equalizer" Collapsed="true">
+    <Position X="92.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAHYAKCACAAAEAAQEQAAICAAIABVIAEAAEBAAAAAJAA=</HashCode>
+      <FileName>src\ui\equalizer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlowLayout" Collapsed="true">
+    <Position X="89.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAKIAABAAAAASCABASAAAAoAgAAAAAAAAAAAAAAiAA=</HashCode>
+      <FileName>src\ui\flowlayout.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalShortcutGrabber" Collapsed="true">
+    <Position X="85.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BABAAAAACAgAEAABAIABAAQAAABAAAMAABCAAAAAAAA=</HashCode>
+      <FileName>src\ui\globalshortcutgrabber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GlobalShortcutsSettingsPage" Collapsed="true">
+    <Position X="45.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAFAhAAEAgAAAEKAAAAQACQAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\globalshortcutssettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IconLoader" Collapsed="true">
+    <Position X="77" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAABAAAAIABAAAAAAABAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>src\ui\iconloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacScreensaver" Collapsed="true">
+    <Position X="6.75" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAABAAAIAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>src\ui\macscreensaver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacSystemTrayIcon" Collapsed="true">
+    <Position X="38.25" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEAAAAAAAAABAAACACAACRAAAAAAgAAQAAAAA=</HashCode>
+      <FileName>src\ui\macsystemtrayicon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainWindow" Collapsed="true">
+    <Position X="23" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>zAK0ZjOsK+FnXKNUX6UCthoc5hK06DnOLkowZKWQ/fI=</HashCode>
+      <FileName>src\ui\mainwindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkProxySettingsPage" Collapsed="true">
+    <Position X="59" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAEAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\networkproxysettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkRemoteSettingsPage" Collapsed="true">
+    <Position X="63.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAQEAAAAAAAAAAAAAABAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>src\ui\networkremotesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotificationsSettingsPage" Collapsed="true">
+    <Position X="65.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JhAIgIIAAAAAEAAAAIABAAAAAAGAEAKQAAABAAAAAAA=</HashCode>
+      <FileName>src\ui\notificationssettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrganiseDialog" Collapsed="true">
+    <Position X="70" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAiIAgAAAAAAMAQCKAQCAxQhAAAAJAQAAAAAAAAAgEA=</HashCode>
+      <FileName>src\ui\organisedialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrganiseErrorDialog" Collapsed="true">
+    <Position X="71.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAkAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\organiseerrordialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaybackSettingsPage" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAhIAAAAAAEAAAAAAAAAAAAAAAIAAAAAAEAAAAAAA=</HashCode>
+      <FileName>src\ui\playbacksettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QtSystemTrayIcon" Collapsed="true">
+    <Position X="36" Y="34" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAAALAEAAgIEAAAAAAAARAKAgiRAAAAAAAAAQKAAwg=</HashCode>
+      <FileName>src\ui\qtsystemtrayicon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Screensaver" Collapsed="true">
+    <Position X="4.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgEAAIAAAAAAAgABQgBAAAAAAAACAAAAABAAAAAABA=</HashCode>
+      <FileName>src\ui\screensaver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsItemDelegate" Collapsed="true">
+    <Position X="89.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\settingsdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsDialog" Collapsed="true">
+    <Position X="87.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAApDAICwAEgCBAAEAAMhBAAAAgSCAASAAgAQIABA=</HashCode>
+      <FileName>src\ui\settingsdialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SettingsPage" Collapsed="true">
+    <Position X="35.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAQAAAAAAAAAEAAAAAAAAQAACAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\settingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StandardItemIconLoader" Collapsed="true">
+    <Position X="85.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAEAACAAAAAAAAAAEAAAAAAAABAAgIAAEAAAIAAA=</HashCode>
+      <FileName>src\ui\standarditemiconloader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SystemTrayIcon" Collapsed="true">
+    <Position X="37.25" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAJAAAAgIEAAIAAASBNBaEAgRAAAAAAAgAYCAACg=</HashCode>
+      <FileName>src\ui\systemtrayicon.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackSelectionDialog" Collapsed="true">
+    <Position X="85.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAICIgAAAEAgAAACEAAAVAAAAAARAABICQQAAAAA=</HashCode>
+      <FileName>src\ui\trackselectiondialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Windows7ThumbBar" Collapsed="true">
+    <Position X="91" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAQAAABAAAAAAEAECAAAAAgAAEAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\windows7thumbbar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindowsScreensaver" Collapsed="true">
+    <Position X="4.5" Y="31.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEIAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>src\ui\windowsscreensaver.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectMPresetModel" Collapsed="true">
+    <Position X="71.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQAAAAQCAAQAJAAAAAAAAAAAIAAAAAAAASAAABAAQ=</HashCode>
+      <FileName>src\visualisations\projectmpresetmodel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProjectMVisualisation" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAQgIIAAAACIgCAEAAAAAABABJASAQAAIQAAABQAAQ=</HashCode>
+      <FileName>src\visualisations\projectmvisualisation.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualisationContainer" Collapsed="true">
+    <Position X="75.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DCjAgACEABJAAIEQAQABASBAoAGAMgBAQIACAgQJAAA=</HashCode>
+      <FileName>src\visualisations\visualisationcontainer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualisationOverlay" Collapsed="true">
+    <Position X="77" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GABAAAQAQAAAEAAMAAAAAAAAAAAAAgAAAAAQAAAEAAA=</HashCode>
+      <FileName>src\visualisations\visualisationoverlay.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VisualisationSelector" Collapsed="true">
+    <Position X="78.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAACAAkAAAAAABAAAAAAAAAAAAAgAAAAEFAAA=</HashCode>
+      <FileName>src\visualisations\visualisationselector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoExpandingTreeView" Collapsed="true">
+    <Position X="32.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAEQAgRAAAIAgAAIDAAAAAYAAAFAAAAABAAAEI=</HashCode>
+      <FileName>src\widgets\autoexpandingtreeview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BusyIndicator" Collapsed="true">
+    <Position X="70" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAgAAAABAAABABAAAAACAAAAAIAAACAAAAAAA=</HashCode>
+      <FileName>src\widgets\busyindicator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClickableLabel" Collapsed="true">
+    <Position X="77" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\clickablelabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DidYouMean" Collapsed="true">
+    <Position X="84" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEAgAQEAAAAAAAQBBADAABAIAAEAAAAEIAEAAIAAAA=</HashCode>
+      <FileName>src\widgets\didyoumean.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElidedLabel" Collapsed="true">
+    <Position X="91" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgBAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\elidedlabel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EqualizerSlider" Collapsed="true">
+    <Position X="94.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAEAAAAAAAAAAAAAAAADAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\equalizerslider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ErrorDialog" Collapsed="true">
+    <Position X="68.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEIAAAAABAAAAAAAAAAQAAAAAABAAAAA=</HashCode>
+      <FileName>src\widgets\errordialog.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FavoriteWidget" Collapsed="true">
+    <Position X="78.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIgAAAAAAAAAAgBAAAQABAAAIAIIAQAAAAABAAAAA=</HashCode>
+      <FileName>src\widgets\favoritewidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileView" Collapsed="true">
+    <Position X="84" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAEAAAAAMBEACAACJAABAAUEIAACAAQAAECIDQA=</HashCode>
+      <FileName>src\widgets\fileview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileViewList" Collapsed="true">
+    <Position X="85.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAgAEAAAAAAUIAACBQABAQEQEAAAAAQAggIAAAA=</HashCode>
+      <FileName>src\widgets\fileviewlist.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ForceScrollPerPixel" Collapsed="true">
+    <Position X="91" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAIAAAA=</HashCode>
+      <FileName>src\widgets\forcescrollperpixel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeSpaceBar" Collapsed="true">
+    <Position X="92.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAoAIAADCAAEEAABGQBQAABECQAAAAAEEAIAAECAYY=</HashCode>
+      <FileName>src\widgets\freespacebar.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FullscreenHypnotoad" Collapsed="true">
+    <Position X="94.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAEAAAQABABAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\fullscreenhypnotoad.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GroupedIconView" Collapsed="true">
+    <Position X="94.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ANAIAQAACBAwMAABBAICAAEEABBIsEQBAACAAIAAABA=</HashCode>
+      <FileName>src\widgets\groupediconview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineEditInterface" Collapsed="true">
+    <Position X="4.5" Y="26.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAACAAAAAEABAAAAAAAACIAAAIAAIAAAAAAQAgBA=</HashCode>
+      <FileName>src\widgets\lineedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExtendedEditor" Collapsed="true">
+    <Position X="4.5" Y="27.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIAIAAIAAAAABABAECAAgAIKCAIoAQACCAAAUIAAA=</HashCode>
+      <FileName>src\widgets\lineedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineEdit" Collapsed="true">
+    <Position X="2.25" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAQAAAAAAgBAAAAAAAAAEAIACIAAAAAAAAgBA=</HashCode>
+      <FileName>src\widgets\lineedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextEdit" Collapsed="true">
+    <Position X="4.5" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAgBAAAAAAAAIAAIAAIAAAAAAAAgBA=</HashCode>
+      <FileName>src\widgets\lineedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpinBox" Collapsed="true">
+    <Position X="6.75" Y="29.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAogBAAAAAAAAACAIAAIAAAAAAAAgBA=</HashCode>
+      <FileName>src\widgets\lineedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LineTextEdit" Collapsed="true">
+    <Position X="94.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAABAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\linetextedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoginStateWidget" Collapsed="true">
+    <Position X="71.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAACAAAAAEAEAAAAAEIAAAAAAAAIMCAASAAIAAAA=</HashCode>
+      <FileName>src\widgets\loginstatewidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiLoadingIndicator" Collapsed="true">
+    <Position X="75.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIAAAEAAAFIAAADAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\multiloadingindicator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NowPlayingWidget" Collapsed="true">
+    <Position X="91" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wUaOBBKgAEAaAAoWhIFACwFABIQAIi0JYAYcICHAYRA=</HashCode>
+      <FileName>src\widgets\nowplayingwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSD" Collapsed="true">
+    <Position X="75.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iACgQTgAAAKAAIQAQIACiAoIAAECAS0AIBQGkIAOwIA=</HashCode>
+      <FileName>src\widgets\osd.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OSDPretty" Collapsed="true">
+    <Position X="77" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DTKQgQkQQgJQuAABBCAAAgJQEEBSAJhgEQUQgACwQAA=</HashCode>
+      <FileName>src\widgets\osdpretty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrettyImage" Collapsed="true">
+    <Position X="94.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAACAAAIAACCQBBAAQQAAEAAAAAAEABigAAEAAAQ=</HashCode>
+      <FileName>src\widgets\prettyimage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PrettyImageView" Collapsed="true">
+    <Position X="68.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAMAAYAAAAAAEAAAABAAAAAIAAEIACAAEIAAAA=</HashCode>
+      <FileName>src\widgets\prettyimageview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgressItemDelegate" Collapsed="true">
+    <Position X="70" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\progressitemdelegate.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RatingPainter" Collapsed="true">
+    <Position X="77" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABABCAAAAAAAAAAAAAAAAAAAAAAAAAAAIABBIAAA=</HashCode>
+      <FileName>src\widgets\ratingwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RatingWidget" Collapsed="true">
+    <Position X="78.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAABCAAAgBAAQgAAAAQAQIAAAAAAQAAAAAAA=</HashCode>
+      <FileName>src\widgets\ratingwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RenameTabLineEdit" Collapsed="true">
+    <Position X="84" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\renametablineedit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StickySlider" Collapsed="true">
+    <Position X="87.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAACACAABAAAEgAAAAAQAAAAAAAAAAAAAAAAgAAIA=</HashCode>
+      <FileName>src\widgets\stickyslider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StretchHeaderView" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CogIAQBAAEBAAAAQAIAAAABAAIQgIgAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\stretchheaderview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackSlider" Collapsed="true">
+    <Position X="87.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAIIAAIgQEASACAAABEAQEBAAAAIAAAgAAQAAAAQ=</HashCode>
+      <FileName>src\widgets\trackslider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackSliderPopup" Collapsed="true">
+    <Position X="89.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAFBAEEAAAABACAAhAAAAgBAAAAgEAAAAEAAEACSAMA=</HashCode>
+      <FileName>src\widgets\tracksliderpopup.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TrackSliderSlider" Collapsed="true">
+    <Position X="91" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCIAAAQAAABAAAAAAAAAJABAAAAQAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\widgets\tracksliderslider.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WidgetFadeHelper" Collapsed="true">
+    <Position X="85.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAggAAAQAAAAAEEBAAAACAAAAAAAEAAAACBAAIAAAA=</HashCode>
+      <FileName>src\widgets\widgetfadehelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiimotedevShortcuts" Collapsed="true">
+    <Position X="87.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>xASIAAAADDAAEBAAQCAAgAAQIACAAAEEQEAAAIIIAgA=</HashCode>
+      <FileName>src\wiimotedev\shortcuts.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiimoteSettingsPage" Collapsed="true">
+    <Position X="61.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgIEAQgAAEBgAAAAEAAAAAAAAAgAAwAAAABAAAAA=</HashCode>
+      <FileName>src\wiimotedev\wiimotesettingspage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WiimoteShortcutGrabber" Collapsed="true">
+    <Position X="89.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAADAAAEAAAAgAAggAAAAABgAMAAAAAAAAAIAA=</HashCode>
+      <FileName>src\wiimotedev\wiimoteshortcutgrabber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Analyzer::Base" Collapsed="true">
+    <Position X="14.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\analyzerbase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rainbow::RainbowAnalyzer" Collapsed="true">
+    <Position X="24.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>WAAAEQAAAAAIAAQCgEgSAAABAAQMKABIAgAAAwQCFAw=</HashCode>
+      <FileName>src\analyzers\rainbowanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rainbow::NyanCatAnalyzer" Collapsed="true">
+    <Position X="25.5" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\rainbowanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rainbow::RainbowDashAnalyzer" Collapsed="true">
+    <Position X="23.25" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\rainbowanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google_breakpad::ExceptionHandler" Collapsed="true">
+    <Position X="70" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\crashreporting.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mpris::Mpris1" Collapsed="true">
+    <Position X="91" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgBAAAAAAAQgAAACAAAAABABSAAAAAAAAgA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mpris::Mpris2" Collapsed="true">
+    <Position X="70" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QxwgPBEpAEJqisQgSBAAhwABxEBAGgqAoEIgggCEnbU=</HashCode>
+      <FileName>src\core\mpris2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mpris::Mpris" Collapsed="true">
+    <Position X="89.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>src\core\mpris.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mpris::Mpris1Root" Collapsed="true">
+    <Position X="94.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAQA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mpris::Mpris1Player" Collapsed="true">
+    <Position X="92.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AogggBAAAAAAhAAACAAAgAAGBAQAEEAA4AIAgEAIAAA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mpris::Mpris1TrackList" Collapsed="true">
+    <Position X="68.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAAAAAACKAEBAAAIAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine::Base" Collapsed="true">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgCogCIkIAAAAQE6DCIiQQAQQANBBUDEoAoKIAAGQDI=</HashCode>
+      <FileName>src\engines\enginebase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google_drive::Client" Collapsed="true">
+    <Position X="78.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAIAAACEAQAASIAgAgAAAAAAAACEAAAEAAg=</HashCode>
+      <FileName>src\internet\googledrive\googledriveclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google_drive::File" Collapsed="true">
+    <Position X="82.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAIAAQAAAAAAAKIQAAACIIgCEAAAAAAAAQBBAQgI=</HashCode>
+      <FileName>src\internet\googledrive\googledriveclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google_drive::ConnectResponse" Collapsed="true">
+    <Position X="85.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAgBAAAACBAA=</HashCode>
+      <FileName>src\internet\googledrive\googledriveclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google_drive::GetFileResponse" Collapsed="true">
+    <Position X="71.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAgEAAAAAAAAAAAQAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\googledrive\googledriveclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="google_drive::ListChangesResponse" Collapsed="true">
+    <Position X="68.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAACAAEAAAQAAAAAAAgAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>src\internet\googledrive\googledriveclient.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::Search" Collapsed="true">
+    <Position X="77" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgARAAIAAAABQAAAEEIAAAAACAAACAgAAA=</HashCode>
+      <FileName>src\smartplaylists\search.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::Wizard" Collapsed="true">
+    <Position X="92.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEBQJABAAAAAQAAAAAAARAADAAAABAAAAABAAAAA=</HashCode>
+      <FileName>src\smartplaylists\wizard.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::Generator" Collapsed="true">
+    <Position X="32.5" Y="29.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAgIAAAAAIAAAAAAAAAAAAAAAFAUAAkAAgSEAQIEA=</HashCode>
+      <FileName>src\smartplaylists\generator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::GeneratorInserter" Collapsed="true">
+    <Position X="68.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAkCAAAAAAIQAAAAAAAAAAEAwAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\smartplaylists\generatorinserter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::GeneratorMimeData" Collapsed="true">
+    <Position X="19.5" Y="28" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\smartplaylists\generatormimedata.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::QueryGenerator" Collapsed="true">
+    <Position X="30.25" Y="31" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAQgIAAAAAAAAAAAAJAAAAAAAAFIQAAACAgAEAQAAA=</HashCode>
+      <FileName>src\smartplaylists\querygenerator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::SearchPreview" Collapsed="true">
+    <Position X="80.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAACAAABEIEAAAAAAAAAAAAEAAAAAAEAgAAAAIIEA=</HashCode>
+      <FileName>src\smartplaylists\searchpreview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::SearchTermWidget" Collapsed="true">
+    <Position X="85.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DCAIkAAAIBAEkAAgBAEAAAAAgAACIAAAEAAAAYAAAAw=</HashCode>
+      <FileName>src\smartplaylists\searchtermwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::QueryWizardPlugin" Collapsed="true">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJCAIAABQQIAAAIAIAAAAAABgAANAAEAAAAAAAQAAAQ=</HashCode>
+      <FileName>src\smartplaylists\querywizardplugin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::SearchTerm" Collapsed="true">
+    <Position X="84" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAIAAAAQAAAAAABAQAAAECAACAKAAAgAAAASgE=</HashCode>
+      <FileName>src\smartplaylists\searchterm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smart_playlists::WizardPlugin" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAEBABAAIAAAAAIAAAAAABAAAFAAAAIAACAAABAAA=</HashCode>
+      <FileName>src\smartplaylists\wizardplugin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::InsertItems" Collapsed="true">
+    <Position X="9.75" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQCAEAAAAAAAAAAkAAAAAAAAIAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::RemoveItems" Collapsed="true">
+    <Position X="12" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAABEAAAAAAAAAAAAAIAACAAAAAgA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::MoveItems" Collapsed="true">
+    <Position X="16.5" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAEAAABAAAAAABAAAAAAEAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::ReOrderItems" Collapsed="true">
+    <Position X="20" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAVAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::SortItems" Collapsed="true">
+    <Position X="18.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::ShuffleItems" Collapsed="true">
+    <Position X="21" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaylistUndoCommands::Base" Collapsed="true">
+    <Position X="68.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAUAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Internal::FancyTabProxyStyle" Collapsed="true">
+    <Position X="75.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>src\widgets\fancytabwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Internal::FancyTab" Collapsed="true">
+    <Position X="71.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DCAIAAAQgAAAAAAAgAAAAAAAEAAAEAIIAQACAAAAAAA=</HashCode>
+      <FileName>src\widgets\fancytabwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Internal::FancyTabBar" Collapsed="true">
+    <Position X="73.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAgERAAAACABgABIBAQAAAQEAAAhAUAAAEAAGA=</HashCode>
+      <FileName>src\widgets\fancytabwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Core::Internal::FancyTabWidget" Collapsed="true">
+    <Position X="77" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQQAAAAAAAAgGQBCgAEQgAAACIAYAACEQSAIABAAA=</HashCode>
+      <FileName>src\widgets\fancytabwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amarok::Slider" Collapsed="true">
+    <Position X="37.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAEAAABAAAAAAAIAAARAAAAQACAAAAAgAAkABAQ=</HashCode>
+      <FileName>src\widgets\sliderwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amarok::PrettySlider" Collapsed="true">
+    <Position X="38.25" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAgAAAgAQgAAAA=</HashCode>
+      <FileName>src\widgets\sliderwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Amarok::VolumeSlider" Collapsed="true">
+    <Position X="36" Y="25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCKAAAQAQACAAAAQBQAAEEAgAIBQAAAIAAAiABoAAAA=</HashCode>
+      <FileName>src\widgets\sliderwidget.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utils::StyleHelper" Collapsed="true">
+    <Position X="89.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAQgAEAAIAAAAIAAEQABBCAAQAAAIAAAAAAQEQ=</HashCode>
+      <FileName>src\widgets\stylehelper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="__unnamed_struct_000f_1" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\glanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DBusStatus" Collapsed="true">
+    <Position X="77" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAACAAgAAABQAAAAAAAA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Version" Collapsed="true">
+    <Position X="71.75" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MprisPlaylist" Collapsed="true">
+    <Position X="87.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>src\core\mpris2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="MaybePlaylist" Collapsed="true">
+    <Position X="85.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQ=</HashCode>
+      <FileName>src\core\mpris2.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoverSearchRequest" Collapsed="true">
+    <Position X="71.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIACAAAAAAAgA=</HashCode>
+      <FileName>src\covers\albumcoverfetcher.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoverSearchResult" Collapsed="true">
+    <Position X="73.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>src\covers\albumcoverfetcher.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="AlbumCoverLoaderOptions" Collapsed="true">
+    <Position X="70" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAARAAgAAAAAAAAAAAABA=</HashCode>
+      <FileName>src\covers\albumcoverloaderoptions.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="CoverSearchStatistics" Collapsed="true">
+    <Position X="75.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAAACAgAAAAAEAAQQIAAAAAAEAAAAAEAAAAAA=</HashCode>
+      <FileName>src\covers\coversearchstatistics.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SearchID" Collapsed="true">
+    <Position X="91" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAwA=</HashCode>
+      <FileName>src\internet\vk\vkservice.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Directory" Collapsed="true">
+    <Position X="78.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>src\library\directory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Subdirectory" Collapsed="true">
+    <Position X="68.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAQAAAAAAAAEAgAA=</HashCode>
+      <FileName>src\library\directory.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="QueryOptions" Collapsed="true">
+    <Position X="89.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAEiAEACAAAAACAAAAAEQAAAAIAA=</HashCode>
+      <FileName>src\library\libraryquery.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GlobalSearchRequest" Collapsed="true">
+    <Position X="82.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAIAQAAAgA=</HashCode>
+      <FileName>src\networkremote\outgoingdatacreator.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DownloadItem" Collapsed="true">
+    <Position X="80.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAAAAABAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\networkremote\songsender.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TranscoderPreset" Collapsed="true">
+    <Position X="70" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAASAAAAAAAAAAAAAAAAAAAAAAAACAAAAAIIA=</HashCode>
+      <FileName>src\transcoder\transcoder.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="irpoint" Collapsed="true">
+    <Position X="84" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="accdata" Collapsed="true">
+    <Position X="68.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAEAAAABgAQAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="stickdata" Collapsed="true">
+    <Position X="94.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Engine::SimpleMetaBundle" Collapsed="true">
+    <Position X="92.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQEAAAAQAAAAAAAAFAAgAACAAAAAAAIAAACAAAAAAA=</HashCode>
+      <FileName>src\engines\enginebase.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Analyzer::Scope" Collapsed="true">
+    <Position X="82.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\analyzerbase.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="aroofMemVec" Collapsed="true">
+    <Position X="70" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\baranalyzer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="peak_tx" Collapsed="true">
+    <Position X="16.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\analyzers\glanalyzer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TrackMetadata" Collapsed="true">
+    <Position X="68.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\mpris2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TrackIds" Collapsed="true">
+    <Position X="94.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\mpris2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MprisPlaylistList" Collapsed="true">
+    <Position X="92.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\mpris2.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NewSongInfoList" Collapsed="true">
+    <Position X="70" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\organise.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SongList" Collapsed="true">
+    <Position X="87.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\song.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TagReaderReply" Collapsed="true">
+    <Position X="92.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\tagreaderclient.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="CoverSearchResults" Collapsed="true">
+    <Position X="77" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\covers\albumcoverfetcher.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Engine::Scope" Collapsed="true">
+    <Position X="84" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\engines\enginebase.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="EngineBase" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\engines\engine_fwd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="GTlsDatabase" Collapsed="true">
+    <Position X="84" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\engines\gstengine.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="google_drive::FileList" Collapsed="true">
+    <Position X="80.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\googledrive\googledriveclient.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="lastfm::compat::ScrobbleCache" Collapsed="true">
+    <Position X="85.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\lastfm\lastfmcompat.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="lastfm::compat::AuthenticatedUser" Collapsed="true">
+    <Position X="71.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\lastfm\lastfmcompat.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PodcastList" Collapsed="true">
+    <Position X="78.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcast.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PodcastEpisodeList" Collapsed="true">
+    <Position X="77" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcastepisode.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MusicOwnerList" Collapsed="true">
+    <Position X="68.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\vk\vkservice.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DirectoryList" Collapsed="true">
+    <Position X="78.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\library\directory.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SubdirectoryList" Collapsed="true">
+    <Position X="91" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\library\directory.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="AlbumList" Collapsed="true">
+    <Position X="68.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\library\librarybackend.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="SqlRowList" Collapsed="true">
+    <Position X="89.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\library\sqlrow.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ColorVector" Collapsed="true">
+    <Position X="73.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\moodbar\moodbarrenderer.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ProviderList" Collapsed="true">
+    <Position X="80.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\networkremote\outgoingdatacreator.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="ColumnAlignmentMap" Collapsed="true">
+    <Position X="75.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlist.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PlaylistItemPtr" Collapsed="true">
+    <Position X="75.25" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistitem.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PlaylistItemList" Collapsed="true">
+    <Position X="73.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistitem.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="smart_playlists::GeneratorPtr" Collapsed="true">
+    <Position X="82.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\smartplaylists\generator_fwd.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="smart_playlists::OperatorList" Collapsed="true">
+    <Position X="71.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\smartplaylists\searchterm.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="MSG" Collapsed="true">
+    <Position X="94.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\ui\windows7thumbbar.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint64" Collapsed="true">
+    <Position X="73.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint32" Collapsed="true">
+    <Position X="71.75" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint16" Collapsed="true">
+    <Position X="70" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="uint8" Collapsed="true">
+    <Position X="75.25" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int64" Collapsed="true">
+    <Position X="89.25" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int32" Collapsed="true">
+    <Position X="87.5" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int16" Collapsed="true">
+    <Position X="85.75" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="int8" Collapsed="true">
+    <Position X="91" Y="20" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Interface Name="AppDelegate" Collapsed="true">
+    <Position X="68.25" Y="18" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAAAEAAAAAAAAAAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\mac_delegate.h</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SBSystemPreferencesSaveOptions" Collapsed="true">
+    <Position X="80.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>src\mac\SBSystemPreferences.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SBSystemPreferencesPrintingErrorHandling" Collapsed="true">
+    <Position X="78.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>src\mac\SBSystemPreferences.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="GENERAL_BUTTONS" Collapsed="true">
+    <Position X="73.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oIOIEAAmIAAAgAAwgAIpAIQkBAAQISIEDrhABABhogI=</HashCode>
+      <FileName>src\wiimotedev\consts.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="mpris::DBusCaps" Collapsed="true">
+    <Position X="71.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAKAAAAAAAAAAAQAAAAAAAgAAAQAAAAAIABAAAAA=</HashCode>
+      <FileName>src\core\mpris1.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Utilities::HashFunction" Collapsed="true">
+    <Position X="75.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAAAAAEAAAAAQAAAAAAAA=</HashCode>
+      <FileName>src\core\utilities.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Utilities::ConfigPath" Collapsed="true">
+    <Position X="70" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAgAABAAAQAAAAAAAAEBAAAABBAgAAAAA=</HashCode>
+      <FileName>src\core\utilities.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Utilities::IoPriority" Collapsed="true">
+    <Position X="77" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAQAAAAAgAAAAAAEAAAAAA=</HashCode>
+      <FileName>src\core\utilities.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Utilities::__unnamed_enum_0075_1" Collapsed="true">
+    <Position X="68.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\core\utilities.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Engine::State" Collapsed="true">
+    <Position X="82.25" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAAAAAAQAAAAIAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\engines\engine_fwd.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Engine::TrackChangeType" Collapsed="true">
+    <Position X="85.75" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAQAAAAQAAAAAAAAAAAIAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>src\engines\engine_fwd.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PodcastDownload::State" Collapsed="true">
+    <Position X="84" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAIAAAAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\internet\podcasts\podcastdownloader.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PlaylistUndoCommands::Types" Collapsed="true">
+    <Position X="87.5" Y="19" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>src\playlist\playlistundocommands.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
