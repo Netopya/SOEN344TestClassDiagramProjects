@@ -1,0 +1,21 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN"
+"http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+
+<node>
+ <interface name="org.wiimotedev.deviceEvents">
+    <signal name="dbusWiimoteGeneralButtons">
+      <arg direction="out" type="u" name="id" />
+      <arg direction="out" type="t" name="value" />
+    </signal>
+    <signal name="dbusWiimoteConnected">
+      <arg direction="out" type="u" name="id" />
+    </signal>
+    <signal name="dbusWiimoteDisconnected">
+      <arg direction="out" type="u" name="id" />
+    </signal>
+    <signal name="dbusWiimoteBatteryLife">
+      <arg type="u" direction="out"/>
+      <arg type="y" direction="out"/>
+    </signal>
+  </interface>
+</node>

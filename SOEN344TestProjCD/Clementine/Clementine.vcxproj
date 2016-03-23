@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B88B13F0-1747-4EA9-99E7-231AC1D67091}</ProjectGuid>
+    <RootNamespace>Clementine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\analyzers\analyzer.cpp" />
+    <ClCompile Include="src\analyzers\analyzerbase.cpp" />
+    <ClCompile Include="src\analyzers\analyzercontainer.cpp" />
+    <ClCompile Include="src\analyzers\baranalyzer.cpp" />
+    <ClCompile Include="src\analyzers\blockanalyzer.cpp" />
+    <ClCompile Include="src\analyzers\boomanalyzer.cpp" />
+    <ClCompile Include="src\analyzers\fht.cpp" />
+    <ClCompile Include="src\analyzers\glanalyzer.cpp" />
+    <ClCompile Include="src\analyzers\glanalyzer2.cpp" />
+    <ClCompile Include="src\analyzers\glanalyzer3.cpp" />
+    <ClCompile Include="src\analyzers\rainbowanalyzer.cpp" />
+    <ClCompile Include="src\analyzers\sonogram.cpp" />
+    <ClCompile Include="src\analyzers\turbine.cpp" />
+    <ClCompile Include="src\core\appearance.cpp" />
+    <ClCompile Include="src\core\application.cpp" />
+    <ClCompile Include="src\core\backgroundstreams.cpp" />
+    <ClCompile Include="src\core\commandlineoptions.cpp" />
+    <ClCompile Include="src\core\crashreporting.cpp" />
+    <ClCompile Include="src\core\database.cpp" />
+    <ClCompile Include="src\core\deletefiles.cpp" />
+    <ClCompile Include="src\core\filesystemmusicstorage.cpp" />
+    <ClCompile Include="src\core\filesystemwatcherinterface.cpp" />
+    <ClCompile Include="src\core\globalshortcutbackend.cpp" />
+    <ClCompile Include="src\core\globalshortcuts.cpp" />
+    <ClCompile Include="src\core\gnomeglobalshortcutbackend.cpp" />
+    <ClCompile Include="src\core\mergedproxymodel.cpp" />
+    <ClCompile Include="src\core\metatypes.cpp" />
+    <ClCompile Include="src\core\mpris.cpp" />
+    <ClCompile Include="src\core\mpris1.cpp" />
+    <ClCompile Include="src\core\mpris2.cpp" />
+    <ClCompile Include="src\core\multisortfilterproxy.cpp" />
+    <ClCompile Include="src\core\musicstorage.cpp" />
+    <ClCompile Include="src\core\network.cpp" />
+    <ClCompile Include="src\core\networkproxyfactory.cpp" />
+    <ClCompile Include="src\core\organise.cpp" />
+    <ClCompile Include="src\core\organiseformat.cpp" />
+    <ClCompile Include="src\core\player.cpp" />
+    <ClCompile Include="src\core\qtfslistener.cpp" />
+    <ClCompile Include="src\core\qxtglobalshortcutbackend.cpp" />
+    <ClCompile Include="src\core\scopedtransaction.cpp" />
+    <ClCompile Include="src\core\settingsprovider.cpp" />
+    <ClCompile Include="src\core\signalchecker.cpp" />
+    <ClCompile Include="src\core\song.cpp" />
+    <ClCompile Include="src\core\songloader.cpp" />
+    <ClCompile Include="src\core\stylesheetloader.cpp" />
+    <ClCompile Include="src\core\tagreaderclient.cpp" />
+    <ClCompile Include="src\core\taskmanager.cpp" />
+    <ClCompile Include="src\core\thread.cpp" />
+    <ClCompile Include="src\core\ubuntuunityhack.cpp" />
+    <ClCompile Include="src\core\urlhandler.cpp" />
+    <ClCompile Include="src\core\utilities.cpp" />
+    <ClCompile Include="src\covers\albumcoverexporter.cpp" />
+    <ClCompile Include="src\covers\albumcoverfetcher.cpp" />
+    <ClCompile Include="src\covers\albumcoverfetchersearch.cpp" />
+    <ClCompile Include="src\covers\albumcoverloader.cpp" />
+    <ClCompile Include="src\covers\albumcoverloaderoptions.cpp" />
+    <ClCompile Include="src\covers\amazoncoverprovider.cpp" />
+    <ClCompile Include="src\covers\coverexportrunnable.cpp" />
+    <ClCompile Include="src\covers\coverprovider.cpp" />
+    <ClCompile Include="src\covers\coverproviders.cpp" />
+    <ClCompile Include="src\covers\coversearchstatistics.cpp" />
+    <ClCompile Include="src\covers\coversearchstatisticsdialog.cpp" />
+    <ClCompile Include="src\covers\currentartloader.cpp" />
+    <ClCompile Include="src\covers\kittenloader.cpp" />
+    <ClCompile Include="src\covers\lastfmcoverprovider.cpp" />
+    <ClCompile Include="src\covers\musicbrainzcoverprovider.cpp" />
+    <ClCompile Include="src\devices\cddadevice.cpp" />
+    <ClCompile Include="src\devices\cddalister.cpp" />
+    <ClCompile Include="src\devices\cddasongloader.cpp" />
+    <ClCompile Include="src\devices\connecteddevice.cpp" />
+    <ClCompile Include="src\devices\devicedatabasebackend.cpp" />
+    <ClCompile Include="src\devices\devicekitlister.cpp" />
+    <ClCompile Include="src\devices\devicelister.cpp" />
+    <ClCompile Include="src\devices\devicemanager.cpp" />
+    <ClCompile Include="src\devices\deviceproperties.cpp" />
+    <ClCompile Include="src\devices\devicestatefiltermodel.cpp" />
+    <ClCompile Include="src\devices\deviceview.cpp" />
+    <ClCompile Include="src\devices\deviceviewcontainer.cpp" />
+    <ClCompile Include="src\devices\filesystemdevice.cpp" />
+    <ClCompile Include="src\devices\giolister.cpp" />
+    <ClCompile Include="src\devices\gpoddevice.cpp" />
+    <ClCompile Include="src\devices\gpodloader.cpp" />
+    <ClCompile Include="src\devices\mtpconnection.cpp" />
+    <ClCompile Include="src\devices\mtpdevice.cpp" />
+    <ClCompile Include="src\devices\mtploader.cpp" />
+    <ClCompile Include="src\engines\devicefinder.cpp" />
+    <ClCompile Include="src\engines\directsounddevicefinder.cpp" />
+    <ClCompile Include="src\engines\enginebase.cpp" />
+    <ClCompile Include="src\engines\gstelementdeleter.cpp" />
+    <ClCompile Include="src\engines\gstengine.cpp" />
+    <ClCompile Include="src\engines\gstenginepipeline.cpp" />
+    <ClCompile Include="src\engines\osxdevicefinder.cpp" />
+    <ClCompile Include="src\engines\pulsedevicefinder.cpp" />
+    <ClCompile Include="src\globalsearch\digitallyimportedsearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\globalsearch.cpp" />
+    <ClCompile Include="src\globalsearch\globalsearchitemdelegate.cpp" />
+    <ClCompile Include="src\globalsearch\globalsearchmodel.cpp" />
+    <ClCompile Include="src\globalsearch\globalsearchsettingspage.cpp" />
+    <ClCompile Include="src\globalsearch\globalsearchsortmodel.cpp" />
+    <ClCompile Include="src\globalsearch\globalsearchview.cpp" />
+    <ClCompile Include="src\globalsearch\icecastsearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\librarysearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\savedradiosearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\searchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\searchproviderstatuswidget.cpp" />
+    <ClCompile Include="src\globalsearch\simplesearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\somafmsearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\soundcloudsearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\spotifysearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\suggestionwidget.cpp" />
+    <ClCompile Include="src\globalsearch\urlsearchprovider.cpp" />
+    <ClCompile Include="src\globalsearch\vksearchprovider.cpp" />
+    <ClCompile Include="src\internet\amazon\amazonclouddrive.cpp" />
+    <ClCompile Include="src\internet\amazon\amazonsettingspage.cpp" />
+    <ClCompile Include="src\internet\amazon\amazonurlhandler.cpp" />
+    <ClCompile Include="src\internet\box\boxservice.cpp" />
+    <ClCompile Include="src\internet\box\boxsettingspage.cpp" />
+    <ClCompile Include="src\internet\box\boxurlhandler.cpp" />
+    <ClCompile Include="src\internet\core\cloudfilesearchprovider.cpp" />
+    <ClCompile Include="src\internet\core\cloudfileservice.cpp" />
+    <ClCompile Include="src\internet\core\geolocator.cpp" />
+    <ClCompile Include="src\internet\core\internetmodel.cpp" />
+    <ClCompile Include="src\internet\core\internetplaylistitem.cpp" />
+    <ClCompile Include="src\internet\core\internetservice.cpp" />
+    <ClCompile Include="src\internet\core\internetshowsettingspage.cpp" />
+    <ClCompile Include="src\internet\core\internetview.cpp" />
+    <ClCompile Include="src\internet\core\internetviewcontainer.cpp" />
+    <ClCompile Include="src\internet\core\localredirectserver.cpp" />
+    <ClCompile Include="src\internet\core\oauthenticator.cpp" />
+    <ClCompile Include="src\internet\core\searchboxwidget.cpp" />
+    <ClCompile Include="src\internet\digitally\digitallyimportedclient.cpp" />
+    <ClCompile Include="src\internet\digitally\digitallyimportedservicebase.cpp" />
+    <ClCompile Include="src\internet\digitally\digitallyimportedsettingspage.cpp" />
+    <ClCompile Include="src\internet\digitally\digitallyimportedurlhandler.cpp" />
+    <ClCompile Include="src\internet\dropbox\dropboxservice.cpp" />
+    <ClCompile Include="src\internet\dropbox\dropboxsettingspage.cpp" />
+    <ClCompile Include="src\internet\dropbox\dropboxurlhandler.cpp" />
+    <ClCompile Include="src\internet\googledrive\googledriveclient.cpp" />
+    <ClCompile Include="src\internet\googledrive\googledriveservice.cpp" />
+    <ClCompile Include="src\internet\googledrive\googledrivesettingspage.cpp" />
+    <ClCompile Include="src\internet\googledrive\googledriveurlhandler.cpp" />
+    <ClCompile Include="src\internet\icecast\icecastbackend.cpp" />
+    <ClCompile Include="src\internet\icecast\icecastfilterwidget.cpp" />
+    <ClCompile Include="src\internet\icecast\icecastmodel.cpp" />
+    <ClCompile Include="src\internet\icecast\icecastservice.cpp" />
+    <ClCompile Include="src\internet\internetradio\savedradio.cpp" />
+    <ClCompile Include="src\internet\jamendo\jamendodynamicplaylist.cpp" />
+    <ClCompile Include="src\internet\jamendo\jamendoplaylistitem.cpp" />
+    <ClCompile Include="src\internet\jamendo\jamendoservice.cpp" />
+    <ClCompile Include="src\internet\lastfm\fixlastfm.cpp" />
+    <ClCompile Include="src\internet\lastfm\lastfmcompat.cpp" />
+    <ClCompile Include="src\internet\lastfm\lastfmservice.cpp" />
+    <ClCompile Include="src\internet\lastfm\lastfmsettingspage.cpp" />
+    <ClCompile Include="src\internet\magnatune\magnatunedownloaddialog.cpp" />
+    <ClCompile Include="src\internet\magnatune\magnatuneplaylistitem.cpp" />
+    <ClCompile Include="src\internet\magnatune\magnatuneservice.cpp" />
+    <ClCompile Include="src\internet\magnatune\magnatunesettingspage.cpp" />
+    <ClCompile Include="src\internet\magnatune\magnatuneurlhandler.cpp" />
+    <ClCompile Include="src\internet\podcasts\addpodcastbyurl.cpp" />
+    <ClCompile Include="src\internet\podcasts\addpodcastdialog.cpp" />
+    <ClCompile Include="src\internet\podcasts\addpodcastpage.cpp" />
+    <ClCompile Include="src\internet\podcasts\fixedopmlpage.cpp" />
+    <ClCompile Include="src\internet\podcasts\gpoddersearchpage.cpp" />
+    <ClCompile Include="src\internet\podcasts\gpoddersync.cpp" />
+    <ClCompile Include="src\internet\podcasts\gpoddertoptagsmodel.cpp" />
+    <ClCompile Include="src\internet\podcasts\gpoddertoptagspage.cpp" />
+    <ClCompile Include="src\internet\podcasts\itunessearchpage.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcast.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastbackend.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastdeleter.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastdiscoverymodel.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastdownloader.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastepisode.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastinfowidget.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastparser.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastservice.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastservicemodel.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastsettingspage.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcastupdater.cpp" />
+    <ClCompile Include="src\internet\podcasts\podcasturlloader.cpp" />
+    <ClCompile Include="src\internet\seafile\seafileservice.cpp" />
+    <ClCompile Include="src\internet\seafile\seafilesettingspage.cpp" />
+    <ClCompile Include="src\internet\seafile\seafiletree.cpp" />
+    <ClCompile Include="src\internet\seafile\seafileurlhandler.cpp" />
+    <ClCompile Include="src\internet\skydrive\skydriveservice.cpp" />
+    <ClCompile Include="src\internet\skydrive\skydrivesettingspage.cpp" />
+    <ClCompile Include="src\internet\skydrive\skydriveurlhandler.cpp" />
+    <ClCompile Include="src\internet\somafm\somafmservice.cpp" />
+    <ClCompile Include="src\internet\somafm\somafmurlhandler.cpp" />
+    <ClCompile Include="src\internet\soundcloud\soundcloudservice.cpp" />
+    <ClCompile Include="src\internet\soundcloud\soundcloudsettingspage.cpp" />
+    <ClCompile Include="src\internet\spotify\spotifyblobdownloader.cpp" />
+    <ClCompile Include="src\internet\spotify\spotifyserver.cpp" />
+    <ClCompile Include="src\internet\spotify\spotifyservice.cpp" />
+    <ClCompile Include="src\internet\spotify\spotifysettingspage.cpp" />
+    <ClCompile Include="src\internet\subsonic\subsonicdynamicplaylist.cpp" />
+    <ClCompile Include="src\internet\subsonic\subsonicservice.cpp" />
+    <ClCompile Include="src\internet\subsonic\subsonicsettingspage.cpp" />
+    <ClCompile Include="src\internet\subsonic\subsonicurlhandler.cpp" />
+    <ClCompile Include="src\internet\vk\vkconnection.cpp" />
+    <ClCompile Include="src\internet\vk\vkmusiccache.cpp" />
+    <ClCompile Include="src\internet\vk\vksearchdialog.cpp" />
+    <ClCompile Include="src\internet\vk\vkservice.cpp" />
+    <ClCompile Include="src\internet\vk\vksettingspage.cpp" />
+    <ClCompile Include="src\internet\vk\vkurlhandler.cpp" />
+    <ClCompile Include="src\library\groupbydialog.cpp" />
+    <ClCompile Include="src\library\library.cpp" />
+    <ClCompile Include="src\library\librarybackend.cpp" />
+    <ClCompile Include="src\library\librarydirectorymodel.cpp" />
+    <ClCompile Include="src\library\libraryfilterwidget.cpp" />
+    <ClCompile Include="src\library\librarymodel.cpp" />
+    <ClCompile Include="src\library\libraryplaylistitem.cpp" />
+    <ClCompile Include="src\library\libraryquery.cpp" />
+    <ClCompile Include="src\library\librarysettingspage.cpp" />
+    <ClCompile Include="src\library\libraryview.cpp" />
+    <ClCompile Include="src\library\libraryviewcontainer.cpp" />
+    <ClCompile Include="src\library\librarywatcher.cpp" />
+    <ClCompile Include="src\library\savedgroupingmanager.cpp" />
+    <ClCompile Include="src\library\sqlrow.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\moodbar\moodbarbuilder.cpp" />
+    <ClCompile Include="src\moodbar\moodbarcontroller.cpp" />
+    <ClCompile Include="src\moodbar\moodbaritemdelegate.cpp" />
+    <ClCompile Include="src\moodbar\moodbarloader.cpp" />
+    <ClCompile Include="src\moodbar\moodbarpipeline.cpp" />
+    <ClCompile Include="src\moodbar\moodbarproxystyle.cpp" />
+    <ClCompile Include="src\moodbar\moodbarrenderer.cpp" />
+    <ClCompile Include="src\musicbrainz\acoustidclient.cpp" />
+    <ClCompile Include="src\musicbrainz\chromaprinter.cpp" />
+    <ClCompile Include="src\musicbrainz\musicbrainzclient.cpp" />
+    <ClCompile Include="src\musicbrainz\tagfetcher.cpp" />
+    <ClCompile Include="src\networkremote\avahi.cpp" />
+    <ClCompile Include="src\networkremote\incomingdataparser.cpp" />
+    <ClCompile Include="src\networkremote\networkremote.cpp" />
+    <ClCompile Include="src\networkremote\networkremotehelper.cpp" />
+    <ClCompile Include="src\networkremote\outgoingdatacreator.cpp" />
+    <ClCompile Include="src\networkremote\remoteclient.cpp" />
+    <ClCompile Include="src\networkremote\songsender.cpp" />
+    <ClCompile Include="src\networkremote\tinysvcmdns.cpp" />
+    <ClCompile Include="src\networkremote\zeroconf.cpp" />
+    <ClCompile Include="src\playlistparsers\asxiniparser.cpp" />
+    <ClCompile Include="src\playlistparsers\asxparser.cpp" />
+    <ClCompile Include="src\playlistparsers\cueparser.cpp" />
+    <ClCompile Include="src\playlistparsers\m3uparser.cpp" />
+    <ClCompile Include="src\playlistparsers\parserbase.cpp" />
+    <ClCompile Include="src\playlistparsers\playlistparser.cpp" />
+    <ClCompile Include="src\playlistparsers\plsparser.cpp" />
+    <ClCompile Include="src\playlistparsers\wplparser.cpp" />
+    <ClCompile Include="src\playlistparsers\xmlparser.cpp" />
+    <ClCompile Include="src\playlistparsers\xspfparser.cpp" />
+    <ClCompile Include="src\playlist\dynamicplaylistcontrols.cpp" />
+    <ClCompile Include="src\playlist\playlist.cpp" />
+    <ClCompile Include="src\playlist\playlistbackend.cpp" />
+    <ClCompile Include="src\playlist\playlistcontainer.cpp" />
+    <ClCompile Include="src\playlist\playlistdelegates.cpp" />
+    <ClCompile Include="src\playlist\playlistfilter.cpp" />
+    <ClCompile Include="src\playlist\playlistfilterparser.cpp" />
+    <ClCompile Include="src\playlist\playlistheader.cpp" />
+    <ClCompile Include="src\playlist\playlistitem.cpp" />
+    <ClCompile Include="src\playlist\playlistlistcontainer.cpp" />
+    <ClCompile Include="src\playlist\playlistlistmodel.cpp" />
+    <ClCompile Include="src\playlist\playlistlistview.cpp" />
+    <ClCompile Include="src\playlist\playlistmanager.cpp" />
+    <ClCompile Include="src\playlist\playlistsaveoptionsdialog.cpp" />
+    <ClCompile Include="src\playlist\playlistsequence.cpp" />
+    <ClCompile Include="src\playlist\playlisttabbar.cpp" />
+    <ClCompile Include="src\playlist\playlistundocommands.cpp" />
+    <ClCompile Include="src\playlist\playlistview.cpp" />
+    <ClCompile Include="src\playlist\queue.cpp" />
+    <ClCompile Include="src\playlist\queuemanager.cpp" />
+    <ClCompile Include="src\playlist\songloaderinserter.cpp" />
+    <ClCompile Include="src\playlist\songplaylistitem.cpp" />
+    <ClCompile Include="src\ripper\ripcddialog.cpp" />
+    <ClCompile Include="src\ripper\ripper.cpp" />
+    <ClCompile Include="src\smartplaylists\generator.cpp" />
+    <ClCompile Include="src\smartplaylists\generatorinserter.cpp" />
+    <ClCompile Include="src\smartplaylists\querygenerator.cpp" />
+    <ClCompile Include="src\smartplaylists\querywizardplugin.cpp" />
+    <ClCompile Include="src\smartplaylists\search.cpp" />
+    <ClCompile Include="src\smartplaylists\searchpreview.cpp" />
+    <ClCompile Include="src\smartplaylists\searchterm.cpp" />
+    <ClCompile Include="src\smartplaylists\searchtermwidget.cpp" />
+    <ClCompile Include="src\smartplaylists\wizard.cpp" />
+    <ClCompile Include="src\smartplaylists\wizardplugin.cpp" />
+    <ClCompile Include="src\songinfo\artistinfoview.cpp" />
+    <ClCompile Include="src\songinfo\collapsibleinfoheader.cpp" />
+    <ClCompile Include="src\songinfo\collapsibleinfopane.cpp" />
+    <ClCompile Include="src\songinfo\echonestbiographies.cpp" />
+    <ClCompile Include="src\songinfo\echonestimages.cpp" />
+    <ClCompile Include="src\songinfo\echonestsimilarartists.cpp" />
+    <ClCompile Include="src\songinfo\echonesttags.cpp" />
+    <ClCompile Include="src\songinfo\lastfmtrackinfoprovider.cpp" />
+    <ClCompile Include="src\songinfo\songinfobase.cpp" />
+    <ClCompile Include="src\songinfo\songinfofetcher.cpp" />
+    <ClCompile Include="src\songinfo\songinfoprovider.cpp" />
+    <ClCompile Include="src\songinfo\songinfosettingspage.cpp" />
+    <ClCompile Include="src\songinfo\songinfotextview.cpp" />
+    <ClCompile Include="src\songinfo\songinfoview.cpp" />
+    <ClCompile Include="src\songinfo\songkickconcerts.cpp" />
+    <ClCompile Include="src\songinfo\songkickconcertwidget.cpp" />
+    <ClCompile Include="src\songinfo\songplaystats.cpp" />
+    <ClCompile Include="src\songinfo\taglyricsinfoprovider.cpp" />
+    <ClCompile Include="src\songinfo\tagwidget.cpp" />
+    <ClCompile Include="src\songinfo\ultimatelyricslyric.cpp" />
+    <ClCompile Include="src\songinfo\ultimatelyricsprovider.cpp" />
+    <ClCompile Include="src\songinfo\ultimatelyricsreader.cpp" />
+    <ClCompile Include="src\transcoder\transcodedialog.cpp" />
+    <ClCompile Include="src\transcoder\transcoder.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsaac.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsdialog.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsflac.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsmp3.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsopus.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsspeex.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionsvorbis.cpp" />
+    <ClCompile Include="src\transcoder\transcoderoptionswma.cpp" />
+    <ClCompile Include="src\transcoder\transcodersettingspage.cpp" />
+    <ClCompile Include="src\ui\about.cpp" />
+    <ClCompile Include="src\ui\addstreamdialog.cpp" />
+    <ClCompile Include="src\ui\albumcoverchoicecontroller.cpp" />
+    <ClCompile Include="src\ui\albumcoverexport.cpp" />
+    <ClCompile Include="src\ui\albumcovermanager.cpp" />
+    <ClCompile Include="src\ui\albumcovermanagerlist.cpp" />
+    <ClCompile Include="src\ui\albumcoversearcher.cpp" />
+    <ClCompile Include="src\ui\appearancesettingspage.cpp" />
+    <ClCompile Include="src\ui\backgroundstreamssettingspage.cpp" />
+    <ClCompile Include="src\ui\behavioursettingspage.cpp" />
+    <ClCompile Include="src\ui\console.cpp" />
+    <ClCompile Include="src\ui\coverfromurldialog.cpp" />
+    <ClCompile Include="src\ui\dbusscreensaver.cpp" />
+    <ClCompile Include="src\ui\edittagdialog.cpp" />
+    <ClCompile Include="src\ui\equalizer.cpp" />
+    <ClCompile Include="src\ui\flowlayout.cpp" />
+    <ClCompile Include="src\ui\globalshortcutgrabber.cpp" />
+    <ClCompile Include="src\ui\globalshortcutssettingspage.cpp" />
+    <ClCompile Include="src\ui\iconloader.cpp" />
+    <ClCompile Include="src\ui\macscreensaver.cpp" />
+    <ClCompile Include="src\ui\mainwindow.cpp" />
+    <ClCompile Include="src\ui\networkproxysettingspage.cpp" />
+    <ClCompile Include="src\ui\networkremotesettingspage.cpp" />
+    <ClCompile Include="src\ui\notificationssettingspage.cpp" />
+    <ClCompile Include="src\ui\organisedialog.cpp" />
+    <ClCompile Include="src\ui\organiseerrordialog.cpp" />
+    <ClCompile Include="src\ui\playbacksettingspage.cpp" />
+    <ClCompile Include="src\ui\qtsystemtrayicon.cpp" />
+    <ClCompile Include="src\ui\screensaver.cpp" />
+    <ClCompile Include="src\ui\settingsdialog.cpp" />
+    <ClCompile Include="src\ui\settingspage.cpp" />
+    <ClCompile Include="src\ui\standarditemiconloader.cpp" />
+    <ClCompile Include="src\ui\systemtrayicon.cpp" />
+    <ClCompile Include="src\ui\trackselectiondialog.cpp" />
+    <ClCompile Include="src\ui\windows7thumbbar.cpp" />
+    <ClCompile Include="src\ui\windowsscreensaver.cpp" />
+    <ClCompile Include="src\visualisations\projectmpresetmodel.cpp" />
+    <ClCompile Include="src\visualisations\projectmvisualisation.cpp" />
+    <ClCompile Include="src\visualisations\visualisationcontainer.cpp" />
+    <ClCompile Include="src\visualisations\visualisationoverlay.cpp" />
+    <ClCompile Include="src\visualisations\visualisationselector.cpp" />
+    <ClCompile Include="src\widgets\autoexpandingtreeview.cpp" />
+    <ClCompile Include="src\widgets\busyindicator.cpp" />
+    <ClCompile Include="src\widgets\clickablelabel.cpp" />
+    <ClCompile Include="src\widgets\didyoumean.cpp" />
+    <ClCompile Include="src\widgets\elidedlabel.cpp" />
+    <ClCompile Include="src\widgets\equalizerslider.cpp" />
+    <ClCompile Include="src\widgets\errordialog.cpp" />
+    <ClCompile Include="src\widgets\fancytabwidget.cpp" />
+    <ClCompile Include="src\widgets\favoritewidget.cpp" />
+    <ClCompile Include="src\widgets\fileview.cpp" />
+    <ClCompile Include="src\widgets\fileviewlist.cpp" />
+    <ClCompile Include="src\widgets\forcescrollperpixel.cpp" />
+    <ClCompile Include="src\widgets\freespacebar.cpp" />
+    <ClCompile Include="src\widgets\fullscreenhypnotoad.cpp" />
+    <ClCompile Include="src\widgets\groupediconview.cpp" />
+    <ClCompile Include="src\widgets\lineedit.cpp" />
+    <ClCompile Include="src\widgets\linetextedit.cpp" />
+    <ClCompile Include="src\widgets\loginstatewidget.cpp" />
+    <ClCompile Include="src\widgets\multiloadingindicator.cpp" />
+    <ClCompile Include="src\widgets\nowplayingwidget.cpp" />
+    <ClCompile Include="src\widgets\osd.cpp" />
+    <ClCompile Include="src\widgets\osdpretty.cpp" />
+    <ClCompile Include="src\widgets\osd_win.cpp" />
+    <ClCompile Include="src\widgets\osd_x11.cpp" />
+    <ClCompile Include="src\widgets\prettyimage.cpp" />
+    <ClCompile Include="src\widgets\prettyimageview.cpp" />
+    <ClCompile Include="src\widgets\progressitemdelegate.cpp" />
+    <ClCompile Include="src\widgets\ratingwidget.cpp" />
+    <ClCompile Include="src\widgets\renametablineedit.cpp" />
+    <ClCompile Include="src\widgets\sliderwidget.cpp" />
+    <ClCompile Include="src\widgets\stickyslider.cpp" />
+    <ClCompile Include="src\widgets\stretchheaderview.cpp" />
+    <ClCompile Include="src\widgets\stylehelper.cpp" />
+    <ClCompile Include="src\widgets\trackslider.cpp" />
+    <ClCompile Include="src\widgets\tracksliderpopup.cpp" />
+    <ClCompile Include="src\widgets\tracksliderslider.cpp" />
+    <ClCompile Include="src\widgets\widgetfadehelper.cpp" />
+    <ClCompile Include="src\wiimotedev\shortcuts.cpp" />
+    <ClCompile Include="src\wiimotedev\wiimotesettingspage.cpp" />
+    <ClCompile Include="src\wiimotedev\wiimoteshortcutgrabber.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\analyzers\analyzerbase.h" />
+    <ClInclude Include="src\analyzers\analyzercontainer.h" />
+    <ClInclude Include="src\analyzers\baranalyzer.h" />
+    <ClInclude Include="src\analyzers\blockanalyzer.h" />
+    <ClInclude Include="src\analyzers\boomanalyzer.h" />
+    <ClInclude Include="src\analyzers\fht.h" />
+    <ClInclude Include="src\analyzers\glanalyzer.h" />
+    <ClInclude Include="src\analyzers\glanalyzer2.h" />
+    <ClInclude Include="src\analyzers\glanalyzer3.h" />
+    <ClInclude Include="src\analyzers\rainbowanalyzer.h" />
+    <ClInclude Include="src\analyzers\sonogram.h" />
+    <ClInclude Include="src\analyzers\turbine.h" />
+    <ClInclude Include="src\core\appearance.h" />
+    <ClInclude Include="src\core\application.h" />
+    <ClInclude Include="src\core\backgroundstreams.h" />
+    <ClInclude Include="src\core\cachedlist.h" />
+    <ClInclude Include="src\core\commandlineoptions.h" />
+    <ClInclude Include="src\core\crashreporting.h" />
+    <ClInclude Include="src\core\database.h" />
+    <ClInclude Include="src\core\deletefiles.h" />
+    <ClInclude Include="src\core\filesystemmusicstorage.h" />
+    <ClInclude Include="src\core\filesystemwatcherinterface.h" />
+    <ClInclude Include="src\core\globalshortcutbackend.h" />
+    <ClInclude Include="src\core\globalshortcuts.h" />
+    <ClInclude Include="src\core\gnomeglobalshortcutbackend.h" />
+    <ClInclude Include="src\core\macfslistener.h" />
+    <ClInclude Include="src\core\macglobalshortcutbackend.h" />
+    <ClInclude Include="src\core\mac_delegate.h" />
+    <ClInclude Include="src\core\mac_startup.h" />
+    <ClInclude Include="src\core\mac_utilities.h" />
+    <ClInclude Include="src\core\mergedproxymodel.h" />
+    <ClInclude Include="src\core\metatypes.h" />
+    <ClInclude Include="src\core\mimedata.h" />
+    <ClInclude Include="src\core\mpris.h" />
+    <ClInclude Include="src\core\mpris1.h" />
+    <ClInclude Include="src\core\mpris2.h" />
+    <ClInclude Include="src\core\mpris_common.h" />
+    <ClInclude Include="src\core\multisortfilterproxy.h" />
+    <ClInclude Include="src\core\musicstorage.h" />
+    <ClInclude Include="src\core\network.h" />
+    <ClInclude Include="src\core\networkproxyfactory.h" />
+    <ClInclude Include="src\core\organise.h" />
+    <ClInclude Include="src\core\organiseformat.h" />
+    <ClInclude Include="src\core\player.h" />
+    <ClInclude Include="src\core\potranslator.h" />
+    <ClInclude Include="src\core\qhash_qurl.h" />
+    <ClInclude Include="src\core\qtfslistener.h" />
+    <ClInclude Include="src\core\qxtglobalshortcutbackend.h" />
+    <ClInclude Include="src\core\scopedgobject.h" />
+    <ClInclude Include="src\core\scopedtransaction.h" />
+    <ClInclude Include="src\core\scoped_cftyperef.h" />
+    <ClInclude Include="src\core\scoped_nsobject.h" />
+    <ClInclude Include="src\core\settingsprovider.h" />
+    <ClInclude Include="src\core\signalchecker.h" />
+    <ClInclude Include="src\core\simpletreeitem.h" />
+    <ClInclude Include="src\core\simpletreemodel.h" />
+    <ClInclude Include="src\core\song.h" />
+    <ClInclude Include="src\core\songloader.h" />
+    <ClInclude Include="src\core\stylesheetloader.h" />
+    <ClInclude Include="src\core\tagreaderclient.h" />
+    <ClInclude Include="src\core\taskmanager.h" />
+    <ClInclude Include="src\core\thread.h" />
+    <ClInclude Include="src\core\timeconstants.h" />
+    <ClInclude Include="src\core\ubuntuunityhack.h" />
+    <ClInclude Include="src\core\urlhandler.h" />
+    <ClInclude Include="src\core\utilities.h" />
+    <ClInclude Include="src\covers\albumcoverexporter.h" />
+    <ClInclude Include="src\covers\albumcoverfetcher.h" />
+    <ClInclude Include="src\covers\albumcoverfetchersearch.h" />
+    <ClInclude Include="src\covers\albumcoverloader.h" />
+    <ClInclude Include="src\covers\albumcoverloaderoptions.h" />
+    <ClInclude Include="src\covers\amazoncoverprovider.h" />
+    <ClInclude Include="src\covers\coverexportrunnable.h" />
+    <ClInclude Include="src\covers\coverprovider.h" />
+    <ClInclude Include="src\covers\coverproviders.h" />
+    <ClInclude Include="src\covers\coversearchstatistics.h" />
+    <ClInclude Include="src\covers\coversearchstatisticsdialog.h" />
+    <ClInclude Include="src\covers\currentartloader.h" />
+    <ClInclude Include="src\covers\kittenloader.h" />
+    <ClInclude Include="src\covers\lastfmcoverprovider.h" />
+    <ClInclude Include="src\covers\musicbrainzcoverprovider.h" />
+    <ClInclude Include="src\dbus\metatypes.h" />
+    <ClInclude Include="src\devices\cddadevice.h" />
+    <ClInclude Include="src\devices\cddalister.h" />
+    <ClInclude Include="src\devices\cddasongloader.h" />
+    <ClInclude Include="src\devices\connecteddevice.h" />
+    <ClInclude Include="src\devices\devicedatabasebackend.h" />
+    <ClInclude Include="src\devices\devicekitlister.h" />
+    <ClInclude Include="src\devices\devicelister.h" />
+    <ClInclude Include="src\devices\devicemanager.h" />
+    <ClInclude Include="src\devices\deviceproperties.h" />
+    <ClInclude Include="src\devices\devicestatefiltermodel.h" />
+    <ClInclude Include="src\devices\deviceview.h" />
+    <ClInclude Include="src\devices\deviceviewcontainer.h" />
+    <ClInclude Include="src\devices\filesystemdevice.h" />
+    <ClInclude Include="src\devices\giolister.h" />
+    <ClInclude Include="src\devices\gpoddevice.h" />
+    <ClInclude Include="src\devices\gpodloader.h" />
+    <ClInclude Include="src\devices\macdevicelister.h" />
+    <ClInclude Include="src\devices\mtpconnection.h" />
+    <ClInclude Include="src\devices\mtpdevice.h" />
+    <ClInclude Include="src\devices\mtploader.h" />
+    <ClInclude Include="src\engines\bufferconsumer.h" />
+    <ClInclude Include="src\engines\devicefinder.h" />
+    <ClInclude Include="src\engines\directsounddevicefinder.h" />
+    <ClInclude Include="src\engines\enginebase.h" />
+    <ClInclude Include="src\engines\engine_fwd.h" />
+    <ClInclude Include="src\engines\gstelementdeleter.h" />
+    <ClInclude Include="src\engines\gstengine.h" />
+    <ClInclude Include="src\engines\gstenginepipeline.h" />
+    <ClInclude Include="src\engines\osxdevicefinder.h" />
+    <ClInclude Include="src\engines\pulsedevicefinder.h" />
+    <ClInclude Include="src\globalsearch\digitallyimportedsearchprovider.h" />
+    <ClInclude Include="src\globalsearch\globalsearch.h" />
+    <ClInclude Include="src\globalsearch\globalsearchitemdelegate.h" />
+    <ClInclude Include="src\globalsearch\globalsearchmodel.h" />
+    <ClInclude Include="src\globalsearch\globalsearchsettingspage.h" />
+    <ClInclude Include="src\globalsearch\globalsearchsortmodel.h" />
+    <ClInclude Include="src\globalsearch\globalsearchview.h" />
+    <ClInclude Include="src\globalsearch\icecastsearchprovider.h" />
+    <ClInclude Include="src\globalsearch\librarysearchprovider.h" />
+    <ClInclude Include="src\globalsearch\savedradiosearchprovider.h" />
+    <ClInclude Include="src\globalsearch\searchprovider.h" />
+    <ClInclude Include="src\globalsearch\searchproviderstatuswidget.h" />
+    <ClInclude Include="src\globalsearch\simplesearchprovider.h" />
+    <ClInclude Include="src\globalsearch\somafmsearchprovider.h" />
+    <ClInclude Include="src\globalsearch\soundcloudsearchprovider.h" />
+    <ClInclude Include="src\globalsearch\spotifysearchprovider.h" />
+    <ClInclude Include="src\globalsearch\suggestionwidget.h" />
+    <ClInclude Include="src\globalsearch\urlsearchprovider.h" />
+    <ClInclude Include="src\globalsearch\vksearchprovider.h" />
+    <ClInclude Include="src\internet\amazon\amazonclouddrive.h" />
+    <ClInclude Include="src\internet\amazon\amazonsettingspage.h" />
+    <ClInclude Include="src\internet\amazon\amazonurlhandler.h" />
+    <ClInclude Include="src\internet\box\boxservice.h" />
+    <ClInclude Include="src\internet\box\boxsettingspage.h" />
+    <ClInclude Include="src\internet\box\boxurlhandler.h" />
+    <ClInclude Include="src\internet\core\cloudfilesearchprovider.h" />
+    <ClInclude Include="src\internet\core\cloudfileservice.h" />
+    <ClInclude Include="src\internet\core\geolocator.h" />
+    <ClInclude Include="src\internet\core\internetmimedata.h" />
+    <ClInclude Include="src\internet\core\internetmodel.h" />
+    <ClInclude Include="src\internet\core\internetplaylistitem.h" />
+    <ClInclude Include="src\internet\core\internetservice.h" />
+    <ClInclude Include="src\internet\core\internetshowsettingspage.h" />
+    <ClInclude Include="src\internet\core\internetsongmimedata.h" />
+    <ClInclude Include="src\internet\core\internetview.h" />
+    <ClInclude Include="src\internet\core\internetviewcontainer.h" />
+    <ClInclude Include="src\internet\core\localredirectserver.h" />
+    <ClInclude Include="src\internet\core\oauthenticator.h" />
+    <ClInclude Include="src\internet\core\scrobbler.h" />
+    <ClInclude Include="src\internet\core\searchboxwidget.h" />
+    <ClInclude Include="src\internet\digitally\digitallyimportedclient.h" />
+    <ClInclude Include="src\internet\digitally\digitallyimportedservicebase.h" />
+    <ClInclude Include="src\internet\digitally\digitallyimportedsettingspage.h" />
+    <ClInclude Include="src\internet\digitally\digitallyimportedurlhandler.h" />
+    <ClInclude Include="src\internet\dropbox\dropboxservice.h" />
+    <ClInclude Include="src\internet\dropbox\dropboxsettingspage.h" />
+    <ClInclude Include="src\internet\dropbox\dropboxurlhandler.h" />
+    <ClInclude Include="src\internet\googledrive\googledriveclient.h" />
+    <ClInclude Include="src\internet\googledrive\googledriveservice.h" />
+    <ClInclude Include="src\internet\googledrive\googledrivesettingspage.h" />
+    <ClInclude Include="src\internet\googledrive\googledriveurlhandler.h" />
+    <ClInclude Include="src\internet\icecast\icecastbackend.h" />
+    <ClInclude Include="src\internet\icecast\icecastfilterwidget.h" />
+    <ClInclude Include="src\internet\icecast\icecastitem.h" />
+    <ClInclude Include="src\internet\icecast\icecastmodel.h" />
+    <ClInclude Include="src\internet\icecast\icecastservice.h" />
+    <ClInclude Include="src\internet\internetradio\savedradio.h" />
+    <ClInclude Include="src\internet\jamendo\jamendodynamicplaylist.h" />
+    <ClInclude Include="src\internet\jamendo\jamendoplaylistitem.h" />
+    <ClInclude Include="src\internet\jamendo\jamendoservice.h" />
+    <ClInclude Include="src\internet\lastfm\fixlastfm.h" />
+    <ClInclude Include="src\internet\lastfm\lastfmcompat.h" />
+    <ClInclude Include="src\internet\lastfm\lastfmservice.h" />
+    <ClInclude Include="src\internet\lastfm\lastfmsettingspage.h" />
+    <ClInclude Include="src\internet\lastfm\lastfmurlhandler.h" />
+    <ClInclude Include="src\internet\magnatune\magnatunedownloaddialog.h" />
+    <ClInclude Include="src\internet\magnatune\magnatuneplaylistitem.h" />
+    <ClInclude Include="src\internet\magnatune\magnatuneservice.h" />
+    <ClInclude Include="src\internet\magnatune\magnatunesettingspage.h" />
+    <ClInclude Include="src\internet\magnatune\magnatuneurlhandler.h" />
+    <ClInclude Include="src\internet\podcasts\addpodcastbyurl.h" />
+    <ClInclude Include="src\internet\podcasts\addpodcastdialog.h" />
+    <ClInclude Include="src\internet\podcasts\addpodcastpage.h" />
+    <ClInclude Include="src\internet\podcasts\fixedopmlpage.h" />
+    <ClInclude Include="src\internet\podcasts\gpoddersearchpage.h" />
+    <ClInclude Include="src\internet\podcasts\gpoddersync.h" />
+    <ClInclude Include="src\internet\podcasts\gpoddertoptagsmodel.h" />
+    <ClInclude Include="src\internet\podcasts\gpoddertoptagspage.h" />
+    <ClInclude Include="src\internet\podcasts\itunessearchpage.h" />
+    <ClInclude Include="src\internet\podcasts\opmlcontainer.h" />
+    <ClInclude Include="src\internet\podcasts\podcast.h" />
+    <ClInclude Include="src\internet\podcasts\podcastbackend.h" />
+    <ClInclude Include="src\internet\podcasts\podcastdeleter.h" />
+    <ClInclude Include="src\internet\podcasts\podcastdiscoverymodel.h" />
+    <ClInclude Include="src\internet\podcasts\podcastdownloader.h" />
+    <ClInclude Include="src\internet\podcasts\podcastepisode.h" />
+    <ClInclude Include="src\internet\podcasts\podcastinfowidget.h" />
+    <ClInclude Include="src\internet\podcasts\podcastparser.h" />
+    <ClInclude Include="src\internet\podcasts\podcastservice.h" />
+    <ClInclude Include="src\internet\podcasts\podcastservicemodel.h" />
+    <ClInclude Include="src\internet\podcasts\podcastsettingspage.h" />
+    <ClInclude Include="src\internet\podcasts\podcastupdater.h" />
+    <ClInclude Include="src\internet\podcasts\podcasturlloader.h" />
+    <ClInclude Include="src\internet\seafile\seafileservice.h" />
+    <ClInclude Include="src\internet\seafile\seafilesettingspage.h" />
+    <ClInclude Include="src\internet\seafile\seafiletree.h" />
+    <ClInclude Include="src\internet\seafile\seafileurlhandler.h" />
+    <ClInclude Include="src\internet\skydrive\skydriveservice.h" />
+    <ClInclude Include="src\internet\skydrive\skydrivesettingspage.h" />
+    <ClInclude Include="src\internet\skydrive\skydriveurlhandler.h" />
+    <ClInclude Include="src\internet\somafm\somafmservice.h" />
+    <ClInclude Include="src\internet\somafm\somafmurlhandler.h" />
+    <ClInclude Include="src\internet\soundcloud\soundcloudservice.h" />
+    <ClInclude Include="src\internet\soundcloud\soundcloudsettingspage.h" />
+    <ClInclude Include="src\internet\spotify\spotifyblobdownloader.h" />
+    <ClInclude Include="src\internet\spotify\spotifyserver.h" />
+    <ClInclude Include="src\internet\spotify\spotifyservice.h" />
+    <ClInclude Include="src\internet\spotify\spotifysettingspage.h" />
+    <ClInclude Include="src\internet\subsonic\subsonicdynamicplaylist.h" />
+    <ClInclude Include="src\internet\subsonic\subsonicservice.h" />
+    <ClInclude Include="src\internet\subsonic\subsonicsettingspage.h" />
+    <ClInclude Include="src\internet\subsonic\subsonicurlhandler.h" />
+    <ClInclude Include="src\internet\vk\vkconnection.h" />
+    <ClInclude Include="src\internet\vk\vkmusiccache.h" />
+    <ClInclude Include="src\internet\vk\vksearchdialog.h" />
+    <ClInclude Include="src\internet\vk\vkservice.h" />
+    <ClInclude Include="src\internet\vk\vksettingspage.h" />
+    <ClInclude Include="src\internet\vk\vkurlhandler.h" />
+    <ClInclude Include="src\library\directory.h" />
+    <ClInclude Include="src\library\groupbydialog.h" />
+    <ClInclude Include="src\library\library.h" />
+    <ClInclude Include="src\library\librarybackend.h" />
+    <ClInclude Include="src\library\librarydirectorymodel.h" />
+    <ClInclude Include="src\library\libraryfilterwidget.h" />
+    <ClInclude Include="src\library\libraryitem.h" />
+    <ClInclude Include="src\library\librarymodel.h" />
+    <ClInclude Include="src\library\libraryplaylistitem.h" />
+    <ClInclude Include="src\library\libraryquery.h" />
+    <ClInclude Include="src\library\librarysettingspage.h" />
+    <ClInclude Include="src\library\libraryview.h" />
+    <ClInclude Include="src\library\libraryviewcontainer.h" />
+    <ClInclude Include="src\library\librarywatcher.h" />
+    <ClInclude Include="src\library\savedgroupingmanager.h" />
+    <ClInclude Include="src\library\sqlrow.h" />
+    <ClInclude Include="src\mac\SBSystemPreferences.h" />
+    <ClInclude Include="src\moodbar\moodbarbuilder.h" />
+    <ClInclude Include="src\moodbar\moodbarcontroller.h" />
+    <ClInclude Include="src\moodbar\moodbaritemdelegate.h" />
+    <ClInclude Include="src\moodbar\moodbarloader.h" />
+    <ClInclude Include="src\moodbar\moodbarpipeline.h" />
+    <ClInclude Include="src\moodbar\moodbarproxystyle.h" />
+    <ClInclude Include="src\moodbar\moodbarrenderer.h" />
+    <ClInclude Include="src\musicbrainz\acoustidclient.h" />
+    <ClInclude Include="src\musicbrainz\chromaprinter.h" />
+    <ClInclude Include="src\musicbrainz\musicbrainzclient.h" />
+    <ClInclude Include="src\musicbrainz\tagfetcher.h" />
+    <ClInclude Include="src\networkremote\avahi.h" />
+    <ClInclude Include="src\networkremote\bonjour.h" />
+    <ClInclude Include="src\networkremote\incomingdataparser.h" />
+    <ClInclude Include="src\networkremote\networkremote.h" />
+    <ClInclude Include="src\networkremote\networkremotehelper.h" />
+    <ClInclude Include="src\networkremote\outgoingdatacreator.h" />
+    <ClInclude Include="src\networkremote\remoteclient.h" />
+    <ClInclude Include="src\networkremote\songsender.h" />
+    <ClInclude Include="src\networkremote\tinysvcmdns.h" />
+    <ClInclude Include="src\networkremote\zeroconf.h" />
+    <ClInclude Include="src\playlistparsers\asxiniparser.h" />
+    <ClInclude Include="src\playlistparsers\asxparser.h" />
+    <ClInclude Include="src\playlistparsers\cueparser.h" />
+    <ClInclude Include="src\playlistparsers\m3uparser.h" />
+    <ClInclude Include="src\playlistparsers\parserbase.h" />
+    <ClInclude Include="src\playlistparsers\playlistparser.h" />
+    <ClInclude Include="src\playlistparsers\plsparser.h" />
+    <ClInclude Include="src\playlistparsers\wplparser.h" />
+    <ClInclude Include="src\playlistparsers\xmlparser.h" />
+    <ClInclude Include="src\playlistparsers\xspfparser.h" />
+    <ClInclude Include="src\playlist\dynamicplaylistcontrols.h" />
+    <ClInclude Include="src\playlist\playlist.h" />
+    <ClInclude Include="src\playlist\playlistbackend.h" />
+    <ClInclude Include="src\playlist\playlistcontainer.h" />
+    <ClInclude Include="src\playlist\playlistdelegates.h" />
+    <ClInclude Include="src\playlist\playlistfilter.h" />
+    <ClInclude Include="src\playlist\playlistfilterparser.h" />
+    <ClInclude Include="src\playlist\playlistheader.h" />
+    <ClInclude Include="src\playlist\playlistitem.h" />
+    <ClInclude Include="src\playlist\playlistitemmimedata.h" />
+    <ClInclude Include="src\playlist\playlistlistcontainer.h" />
+    <ClInclude Include="src\playlist\playlistlistmodel.h" />
+    <ClInclude Include="src\playlist\playlistlistview.h" />
+    <ClInclude Include="src\playlist\playlistmanager.h" />
+    <ClInclude Include="src\playlist\playlistsaveoptionsdialog.h" />
+    <ClInclude Include="src\playlist\playlistsequence.h" />
+    <ClInclude Include="src\playlist\playlisttabbar.h" />
+    <ClInclude Include="src\playlist\playlistundocommands.h" />
+    <ClInclude Include="src\playlist\playlistview.h" />
+    <ClInclude Include="src\playlist\queue.h" />
+    <ClInclude Include="src\playlist\queuemanager.h" />
+    <ClInclude Include="src\playlist\songloaderinserter.h" />
+    <ClInclude Include="src\playlist\songmimedata.h" />
+    <ClInclude Include="src\playlist\songplaylistitem.h" />
+    <ClInclude Include="src\ripper\ripcddialog.h" />
+    <ClInclude Include="src\ripper\ripper.h" />
+    <ClInclude Include="src\smartplaylists\generator.h" />
+    <ClInclude Include="src\smartplaylists\generatorinserter.h" />
+    <ClInclude Include="src\smartplaylists\generatormimedata.h" />
+    <ClInclude Include="src\smartplaylists\generator_fwd.h" />
+    <ClInclude Include="src\smartplaylists\querygenerator.h" />
+    <ClInclude Include="src\smartplaylists\querywizardplugin.h" />
+    <ClInclude Include="src\smartplaylists\search.h" />
+    <ClInclude Include="src\smartplaylists\searchpreview.h" />
+    <ClInclude Include="src\smartplaylists\searchterm.h" />
+    <ClInclude Include="src\smartplaylists\searchtermwidget.h" />
+    <ClInclude Include="src\smartplaylists\wizard.h" />
+    <ClInclude Include="src\smartplaylists\wizardplugin.h" />
+    <ClInclude Include="src\songinfo\artistinfoview.h" />
+    <ClInclude Include="src\songinfo\collapsibleinfoheader.h" />
+    <ClInclude Include="src\songinfo\collapsibleinfopane.h" />
+    <ClInclude Include="src\songinfo\echonestbiographies.h" />
+    <ClInclude Include="src\songinfo\echonestimages.h" />
+    <ClInclude Include="src\songinfo\echonestsimilarartists.h" />
+    <ClInclude Include="src\songinfo\echonesttags.h" />
+    <ClInclude Include="src\songinfo\lastfmtrackinfoprovider.h" />
+    <ClInclude Include="src\songinfo\songinfobase.h" />
+    <ClInclude Include="src\songinfo\songinfofetcher.h" />
+    <ClInclude Include="src\songinfo\songinfoprovider.h" />
+    <ClInclude Include="src\songinfo\songinfosettingspage.h" />
+    <ClInclude Include="src\songinfo\songinfotextview.h" />
+    <ClInclude Include="src\songinfo\songinfoview.h" />
+    <ClInclude Include="src\songinfo\songkickconcerts.h" />
+    <ClInclude Include="src\songinfo\songkickconcertwidget.h" />
+    <ClInclude Include="src\songinfo\songplaystats.h" />
+    <ClInclude Include="src\songinfo\taglyricsinfoprovider.h" />
+    <ClInclude Include="src\songinfo\tagwidget.h" />
+    <ClInclude Include="src\songinfo\ultimatelyricslyric.h" />
+    <ClInclude Include="src\songinfo\ultimatelyricsprovider.h" />
+    <ClInclude Include="src\songinfo\ultimatelyricsreader.h" />
+    <ClInclude Include="src\transcoder\transcodedialog.h" />
+    <ClInclude Include="src\transcoder\transcoder.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsaac.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsdialog.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsflac.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsinterface.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsmp3.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsopus.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsspeex.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionsvorbis.h" />
+    <ClInclude Include="src\transcoder\transcoderoptionswma.h" />
+    <ClInclude Include="src\transcoder\transcodersettingspage.h" />
+    <ClInclude Include="src\ui\about.h" />
+    <ClInclude Include="src\ui\addstreamdialog.h" />
+    <ClInclude Include="src\ui\albumcoverchoicecontroller.h" />
+    <ClInclude Include="src\ui\albumcoverexport.h" />
+    <ClInclude Include="src\ui\albumcovermanager.h" />
+    <ClInclude Include="src\ui\albumcovermanagerlist.h" />
+    <ClInclude Include="src\ui\albumcoversearcher.h" />
+    <ClInclude Include="src\ui\appearancesettingspage.h" />
+    <ClInclude Include="src\ui\backgroundstreamssettingspage.h" />
+    <ClInclude Include="src\ui\behavioursettingspage.h" />
+    <ClInclude Include="src\ui\console.h" />
+    <ClInclude Include="src\ui\coverfromurldialog.h" />
+    <ClInclude Include="src\ui\dbusscreensaver.h" />
+    <ClInclude Include="src\ui\edittagdialog.h" />
+    <ClInclude Include="src\ui\equalizer.h" />
+    <ClInclude Include="src\ui\flowlayout.h" />
+    <ClInclude Include="src\ui\globalshortcutgrabber.h" />
+    <ClInclude Include="src\ui\globalshortcutssettingspage.h" />
+    <ClInclude Include="src\ui\iconloader.h" />
+    <ClInclude Include="src\ui\macscreensaver.h" />
+    <ClInclude Include="src\ui\macsystemtrayicon.h" />
+    <ClInclude Include="src\ui\mainwindow.h" />
+    <ClInclude Include="src\ui\networkproxysettingspage.h" />
+    <ClInclude Include="src\ui\networkremotesettingspage.h" />
+    <ClInclude Include="src\ui\notificationssettingspage.h" />
+    <ClInclude Include="src\ui\organisedialog.h" />
+    <ClInclude Include="src\ui\organiseerrordialog.h" />
+    <ClInclude Include="src\ui\playbacksettingspage.h" />
+    <ClInclude Include="src\ui\qtsystemtrayicon.h" />
+    <ClInclude Include="src\ui\qt_blurimage.h" />
+    <ClInclude Include="src\ui\screensaver.h" />
+    <ClInclude Include="src\ui\settingsdialog.h" />
+    <ClInclude Include="src\ui\settingspage.h" />
+    <ClInclude Include="src\ui\standarditemiconloader.h" />
+    <ClInclude Include="src\ui\systemtrayicon.h" />
+    <ClInclude Include="src\ui\trackselectiondialog.h" />
+    <ClInclude Include="src\ui\windows7thumbbar.h" />
+    <ClInclude Include="src\ui\windowsscreensaver.h" />
+    <ClInclude Include="src\visualisations\projectmpresetmodel.h" />
+    <ClInclude Include="src\visualisations\projectmvisualisation.h" />
+    <ClInclude Include="src\visualisations\visualisationcontainer.h" />
+    <ClInclude Include="src\visualisations\visualisationoverlay.h" />
+    <ClInclude Include="src\visualisations\visualisationselector.h" />
+    <ClInclude Include="src\widgets\autoexpandingtreeview.h" />
+    <ClInclude Include="src\widgets\busyindicator.h" />
+    <ClInclude Include="src\widgets\clickablelabel.h" />
+    <ClInclude Include="src\widgets\didyoumean.h" />
+    <ClInclude Include="src\widgets\elidedlabel.h" />
+    <ClInclude Include="src\widgets\equalizerslider.h" />
+    <ClInclude Include="src\widgets\errordialog.h" />
+    <ClInclude Include="src\widgets\fancytabwidget.h" />
+    <ClInclude Include="src\widgets\favoritewidget.h" />
+    <ClInclude Include="src\widgets\fileview.h" />
+    <ClInclude Include="src\widgets\fileviewlist.h" />
+    <ClInclude Include="src\widgets\forcescrollperpixel.h" />
+    <ClInclude Include="src\widgets\freespacebar.h" />
+    <ClInclude Include="src\widgets\fullscreenhypnotoad.h" />
+    <ClInclude Include="src\widgets\groupediconview.h" />
+    <ClInclude Include="src\widgets\lineedit.h" />
+    <ClInclude Include="src\widgets\linetextedit.h" />
+    <ClInclude Include="src\widgets\loginstatewidget.h" />
+    <ClInclude Include="src\widgets\multiloadingindicator.h" />
+    <ClInclude Include="src\widgets\nowplayingwidget.h" />
+    <ClInclude Include="src\widgets\osd.h" />
+    <ClInclude Include="src\widgets\osdpretty.h" />
+    <ClInclude Include="src\widgets\prettyimage.h" />
+    <ClInclude Include="src\widgets\prettyimageview.h" />
+    <ClInclude Include="src\widgets\progressitemdelegate.h" />
+    <ClInclude Include="src\widgets\ratingwidget.h" />
+    <ClInclude Include="src\widgets\renametablineedit.h" />
+    <ClInclude Include="src\widgets\sliderwidget.h" />
+    <ClInclude Include="src\widgets\stickyslider.h" />
+    <ClInclude Include="src\widgets\stretchheaderview.h" />
+    <ClInclude Include="src\widgets\stylehelper.h" />
+    <ClInclude Include="src\widgets\trackslider.h" />
+    <ClInclude Include="src\widgets\tracksliderpopup.h" />
+    <ClInclude Include="src\widgets\tracksliderslider.h" />
+    <ClInclude Include="src\widgets\widgetfadehelper.h" />
+    <ClInclude Include="src\wiimotedev\consts.h" />
+    <ClInclude Include="src\wiimotedev\shortcuts.h" />
+    <ClInclude Include="src\wiimotedev\wiimotesettingspage.h" />
+    <ClInclude Include="src\wiimotedev\wiimoteshortcutgrabber.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClementineClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
