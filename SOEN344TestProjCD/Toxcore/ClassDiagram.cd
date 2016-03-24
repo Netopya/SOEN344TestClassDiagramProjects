@@ -1,2 +1,1264 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Struct Name="Assoc" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAACAAAAAAEAAAAACAAAAAAiAACAAAAAAAAA=</HashCode>
+      <FileName>toxcore\assoc.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Assoc_close_entries" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACAAAAAIBAAAAAAAAAAAAACAAAAAAAAAgAQ=</HashCode>
+      <FileName>toxcore\assoc.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_1" Collapsed="true">
+    <Position X="28.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_2" Collapsed="true">
+    <Position X="12.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAUAAAAAAAAAAgAAAAAAACBCAEAEAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_3" Collapsed="true">
+    <Position X="8.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAgABAAAQAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_4" Collapsed="true">
+    <Position X="28.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_5" Collapsed="true">
+    <Position X="4.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAABAACQAEAAAAAAAAAEgA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_6" Collapsed="true">
+    <Position X="28.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_7" Collapsed="true">
+    <Position X="0.5" Y="30.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQBAgAAEAACAAAAAgAEAAAAAIAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_9" Collapsed="true">
+    <Position X="28.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_11" Collapsed="true">
+    <Position X="24.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045d_12" Collapsed="true">
+    <Position X="24.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAABABhQAAgABAAKAAEgAADAAgABQCAAQAACAAAABEA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045f_2" Collapsed="true">
+    <Position X="24.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EARAgAAACACAiQEAACAAAEAAAAABAAAABCAAAAAAAIA=</HashCode>
+      <FileName>toxcore\friend_connection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_045f_4" Collapsed="true">
+    <Position X="24.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgACAAAAAACAIAAAABAAAAIAGAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\friend_connection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0461_1" Collapsed="true">
+    <Position X="24.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAQAAFAAEAAAAAAAAAAAAEAAIABAAAAAQA=</HashCode>
+      <FileName>toxcore\friend_requests.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0463_3" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAASBAAQAAACAAACAAQAAAAgAQAAAAAAAACAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0463_5" Collapsed="true">
+    <Position X="20.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAwCAAAARCAAAAgAAAAAAAQACAAAIgFAkIAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0463_8" Collapsed="true">
+    <Position X="16.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAEACUAAAAQQAAABEAAAgAAAAgEEAQAIAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0467_1" Collapsed="true">
+    <Position X="12.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAgAAAAAAAAAEAAQAAAAAgA=</HashCode>
+      <FileName>toxcore\list.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Logger" Collapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAQAAAAAAACAAAAAAEAAAAAAAQAAgAAIgA=</HashCode>
+      <FileName>toxcore\logger.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_046b_2" Collapsed="true">
+    <Position X="4.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAACAAAgAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Receipts" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="File_Transfers" Collapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AARAAIAAAIAAAQAAAIAAAAAAAAAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Messenger" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEiIQAQSCIARDAQMCgKgAQhBROkmAAAAAQJAApIgBQA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_046b_11" Collapsed="true">
+    <Position X="20.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAyBAAAMAAICAAAICAAAAAAAgBCEBBEAQAiCAIAoIQA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_046e_3" Collapsed="true">
+    <Position X="20.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_046e_5" Collapsed="true">
+    <Position X="20.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_046e_6" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_046e_7" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAACAAAAAAgAgAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0470_1" Collapsed="true">
+    <Position X="16.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0470_2" Collapsed="true">
+    <Position X="12.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0470_3" Collapsed="true">
+    <Position X="8.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FgYAEAkAACIAAABmkAAQAAACBAdSCDJBKaCsNAIAIyM=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0470_4" Collapsed="true">
+    <Position X="4.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAAAAAAAIAgAAAAAAAAAAAAABAACAAABAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0470_5" Collapsed="true">
+    <Position X="0.5" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gMAAABAAIgAAAAAEAAAIBACAAAAEQAAAAQAAAAIAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0472_1" Collapsed="true">
+    <Position X="16.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAgAgAAuAAgAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0472_2" Collapsed="true">
+    <Position X="16.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAgAAAAQAAQAAACwAAEAAEBAAQAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0474_1" Collapsed="true">
+    <Position X="16.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAQAAAgAIAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>toxcore\onion_announce.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0474_2" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAIEAAAAAAACAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_announce.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0476_1" Collapsed="true">
+    <Position X="12.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAASAAQgAAAAAAAAwAAAAAAAAAABAAAQAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0476_2" Collapsed="true">
+    <Position X="8.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgAAAAAAAABAAAAAAACAAAAAgAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0476_3" Collapsed="true">
+    <Position X="4.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0476_4" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEQEIwAAKAAAAAAAABAQAAAAAAADAIAggCAEBAAAASA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0476_5" Collapsed="true">
+    <Position X="12.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAIAgAAAQCEABkIBCAAgAFAACgAAgARABAIgA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PING" Collapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAEAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\ping.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047a_1" Collapsed="true">
+    <Position X="12.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAACAAAAEAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>toxcore\ping_array.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047a_2" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAgAAAAAAAAgQAAAAACAAAAAAA=</HashCode>
+      <FileName>toxcore\ping_array.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047c_2" Collapsed="true">
+    <Position X="4.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047c_4" Collapsed="true">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAQAAAEMIIigDCAAiEAgAYAAAQAAwAAAOAAABAAASpA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047e_1" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAgAAAAAAAAAAAAAAAIAAAAAAAAgA=</HashCode>
+      <FileName>toxcore\TCP_connection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047e_3" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAEAAACAAAAAAAgBAAABAEAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>toxcore\TCP_connection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_047e_4" Collapsed="true">
+    <Position X="4.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAABAiAAACEAAAAAAkAAAIQAAEQAACIAAAAIAACAA=</HashCode>
+      <FileName>toxcore\TCP_connection.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP_Priority_List" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAIAAAAAAAAAAAAAAAAAQAAIAAAA=</HashCode>
+      <FileName>toxcore\TCP_server.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TCP_Secure_Connection" Collapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAACACCAAiAAAAIAAAAAAgABAKAAABAAACgA=</HashCode>
+      <FileName>toxcore\TCP_server.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="__unnamed_struct_0480_3" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBAAAAAAAAoAgAAAEAwAAEAQggEAAEAAABAAAAE=</HashCode>
+      <FileName>toxcore\TCP_server.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Tox_Options" Collapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAAAAAQBQAAAAAAAAAABAACBAAEBAAABAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RingBuffer" Collapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAgAIAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>toxcore\util.c</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="Assoc_distance_relative_callback" Collapsed="true">
+    <Position X="32.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\assoc.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Assoc_distance_absolute_callback" Collapsed="true">
+    <Position X="31" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\assoc.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IPPTs" Collapsed="true">
+    <Position X="28.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Hardening" Collapsed="true">
+    <Position X="12.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IPPTsPng" Collapsed="true">
+    <Position X="8.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Client_data" Collapsed="true">
+    <Position X="28.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="NAT" Collapsed="true">
+    <Position X="4.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Node_format" Collapsed="true">
+    <Position X="28.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DHT_Friend" Collapsed="true">
+    <Position X="0.5" Y="32.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Shared_Keys" Collapsed="true">
+    <Position X="28.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cryptopacket_handler_callback" Collapsed="true">
+    <Position X="34.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Cryptopacket_Handles" Collapsed="true">
+    <Position X="24.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="DHT" Collapsed="true">
+    <Position X="24.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\DHT.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Friend_Conn" Collapsed="true">
+    <Position X="24.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\friend_connection.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Friend_Connections" Collapsed="true">
+    <Position X="24.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\friend_connection.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Friend_Requests" Collapsed="true">
+    <Position X="24.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\friend_requests.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Group_Peer" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Group_c" Collapsed="true">
+    <Position X="20.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Group_Chats" Collapsed="true">
+    <Position X="16.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="BS_LIST" Collapsed="true">
+    <Position X="12.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\list.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="LOG_LEVEL" Collapsed="true">
+    <Position X="8.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\logger.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Messenger_Options" Collapsed="true">
+    <Position X="4.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="USERSTATUS" Collapsed="true">
+    <Position X="0.5" Y="27.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Friend" Collapsed="true">
+    <Position X="20.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="sock_t" Collapsed="true">
+    <Position X="34.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="sa_family_t" Collapsed="true">
+    <Position X="32.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IP4" Collapsed="true">
+    <Position X="36.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IP6" Collapsed="true">
+    <Position X="38" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IP" Collapsed="true">
+    <Position X="20.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="IP_Port" Collapsed="true">
+    <Position X="20.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="packet_handler_callback" Collapsed="true">
+    <Position X="31" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Packet_Handles" Collapsed="true">
+    <Position X="20.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Networking_Core" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\network.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Packet_Data" Collapsed="true">
+    <Position X="16.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Packets_Array" Collapsed="true">
+    <Position X="12.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Crypto_Connection" Collapsed="true">
+    <Position X="8.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="New_Connection" Collapsed="true">
+    <Position X="4.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Net_Crypto" Collapsed="true">
+    <Position X="0.5" Y="22.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\net_crypto.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion" Collapsed="true">
+    <Position X="16.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Path" Collapsed="true">
+    <Position X="16.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Announce_Entry" Collapsed="true">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_announce.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Announce" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_announce.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Node" Collapsed="true">
+    <Position X="12.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Client_Paths" Collapsed="true">
+    <Position X="8.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Last_Pinged" Collapsed="true">
+    <Position X="4.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Friend" Collapsed="true">
+    <Position X="0.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="oniondata_handler_callback" Collapsed="true">
+    <Position X="41.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Onion_Client" Collapsed="true">
+    <Position X="12.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\onion_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Ping_Array_Entry" Collapsed="true">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\ping_array.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Ping_Array" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\ping_array.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_PROXY_TYPE" Collapsed="true">
+    <Position X="8.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_Proxy_Info" Collapsed="true">
+    <Position X="4.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_Client_Connection" Collapsed="true">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_Connection_to" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_connection.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_con" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_connection.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_Connections" Collapsed="true">
+    <Position X="4.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_connection.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TCP_Server" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_server.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="Tox" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.c</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_self_connection_status_cb" Collapsed="true">
+    <Position X="36.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_name_cb" Collapsed="true">
+    <Position X="38" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_status_message_cb" Collapsed="true">
+    <Position X="32.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_status_cb" Collapsed="true">
+    <Position X="31" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_connection_status_cb" Collapsed="true">
+    <Position X="31" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_typing_cb" Collapsed="true">
+    <Position X="34.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_read_receipt_cb" Collapsed="true">
+    <Position X="39.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_request_cb" Collapsed="true">
+    <Position X="41.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_message_cb" Collapsed="true">
+    <Position X="36.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_file_recv_control_cb" Collapsed="true">
+    <Position X="41.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_file_chunk_request_cb" Collapsed="true">
+    <Position X="36.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_file_recv_cb" Collapsed="true">
+    <Position X="38" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_file_recv_chunk_cb" Collapsed="true">
+    <Position X="39.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_lossy_packet_cb" Collapsed="true">
+    <Position X="34.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="tox_friend_lossless_packet_cb" Collapsed="true">
+    <Position X="32.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="TOX_CHAT_CHANGE" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox_old.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="load_state_callback_func" Collapsed="true">
+    <Position X="39.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\util.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="NODE_STATUS" Collapsed="true">
+    <Position X="38" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAABAACCAAAAAA=</HashCode>
+      <FileName>toxcore\assoc.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AssocCloseEntriesFlags" Collapsed="true">
+    <Position X="36.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>toxcore\assoc.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_045f_1" Collapsed="true">
+    <Position X="31" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAEAA=</HashCode>
+      <FileName>toxcore\friend_connection.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0463_1" Collapsed="true">
+    <Position X="32.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAACAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0463_2" Collapsed="true">
+    <Position X="36.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0463_4" Collapsed="true">
+    <Position X="38" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0463_10" Collapsed="true">
+    <Position X="34.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\group.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0469_1" Collapsed="true">
+    <Position X="8.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAABAAAAAABAAAAAAAQAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\logger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_1" Collapsed="true">
+    <Position X="39.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_3" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAEAAAAIAAAAAAEAAACAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_4" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAQBAAAAACAAAQAAAAQAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_5" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAQAgAEAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_6" Collapsed="true">
+    <Position X="0.5" Y="25.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAgAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_7" Collapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAEAAAAAAAAAAAAAAAIAAgAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_8" Collapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_9" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAgAAAAAAAAAEAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_10" Collapsed="true">
+    <Position X="41.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_046b_13" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQ=</HashCode>
+      <FileName>toxcore\Messenger.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_047c_1" Collapsed="true">
+    <Position X="8.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAJAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_047c_3" Collapsed="true">
+    <Position X="31" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEAAABgAAAAAAQAAAAAAAAACAAAAAAEAAAAAAgAAA=</HashCode>
+      <FileName>toxcore\TCP_client.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0480_1" Collapsed="true">
+    <Position X="32.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAgEAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\TCP_server.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_USER_STATUS" Collapsed="true">
+    <Position X="34.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAACAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_MESSAGE_TYPE" Collapsed="true">
+    <Position X="41.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_PROXY_TYPE" Collapsed="true">
+    <Position X="31" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAgI=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_SAVEDATA_TYPE" Collapsed="true">
+    <Position X="32.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_OPTIONS_NEW" Collapsed="true">
+    <Position X="32.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_NEW" Collapsed="true">
+    <Position X="31" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAwAQAAAAAAAAAAAAgAAgAAFAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_BOOTSTRAP" Collapsed="true">
+    <Position X="41.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAgAAAAAAAAAAAAAAABAAAAAAAAAgAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_CONNECTION" Collapsed="true">
+    <Position X="39.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAIAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_SET_INFO" Collapsed="true">
+    <Position X="34.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_ADD" Collapsed="true">
+    <Position X="39.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAAAAhAAAEAAAAAAAACAAAAAAAAIAAAAAAgAEAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_DELETE" Collapsed="true">
+    <Position X="32.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_BY_PUBLIC_KEY" Collapsed="true">
+    <Position X="41.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAQAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_GET_PUBLIC_KEY" Collapsed="true">
+    <Position X="36.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_GET_LAST_ONLINE" Collapsed="true">
+    <Position X="34.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_QUERY" Collapsed="true">
+    <Position X="38" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAgAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_SET_TYPING" Collapsed="true">
+    <Position X="36.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_SEND_MESSAGE" Collapsed="true">
+    <Position X="39.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAACAAIAABAAAABQABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_FILE_KIND" Collapsed="true">
+    <Position X="39.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_FILE_CONTROL" Collapsed="true">
+    <Position X="38" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAASAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FILE_CONTROL" Collapsed="true">
+    <Position X="31" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAQAAAAAAACAAAAAAAgAAAAAAIAAAAkAAAg=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FILE_SEEK" Collapsed="true">
+    <Position X="34.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAEAAAAAAAJAAgAAAABAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FILE_GET" Collapsed="true">
+    <Position X="32.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAQCAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FILE_SEND" Collapsed="true">
+    <Position X="36.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAQAAAAAAAABAAAAAAAAAAAANAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FILE_SEND_CHUNK" Collapsed="true">
+    <Position X="38" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABAAAQAAAAAQAAABAAAAACAEQAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_FRIEND_CUSTOM_PACKET" Collapsed="true">
+    <Position X="31" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAgAAAAAjAAAAAAAAgQQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TOX_ERR_GET_PORT" Collapsed="true">
+    <Position X="41.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0483_1" Collapsed="true">
+    <Position X="34.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox_old.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_0483_2" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>toxcore\tox_old.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
